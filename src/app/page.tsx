@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./page.module.css";
 
 const Home = () => {
@@ -9,6 +10,13 @@ const Home = () => {
           src="/logos/InkLogoBlanc.png"
           alt="Logo InkVerse"
         />
+        <Link href="">
+          <img
+            className={styles.aboutLogo}
+            src="/logos/About.png"
+            alt="alller vers About"
+          />
+        </Link>
       </section>
     </>
   );

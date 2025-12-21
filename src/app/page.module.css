@@ -13,3 +13,11 @@
 .homeLogo {
   height: 550px;
 }
+
+.aboutLogo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  cursor: pointer;
+}
