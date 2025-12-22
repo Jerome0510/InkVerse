@@ -839,7 +839,7 @@ Et quelque part, la Brèche se souviendra de ton nom.</p>
     await connection.execute(`SET FOREIGN_KEY_CHECKS =0`);
     for (const choice of choices) {
       await connection.execute(
-        `INSERT INTO choices (id, text, steps_id, link_to_step_id)`,
+        `INSERT INTO choices (id, text, steps_id, link_to_step_id) VALUES (?, ?, ?, ?)`,
         choice
       );
     }
