@@ -26,8 +26,7 @@ const seed = async () => {
             SET FOREIGN_KEY_CHECKS = 1;`);
 
     await connection.execute(
-      `
-                INSERT INTO categories (id, categorie, description) VALUES (?, ?, ?)`,
+      `INSERT INTO categories (id, categorie, description) VALUES (?, ?, ?)`,
       [
         1,
         "Heroic fantasy",
@@ -35,8 +34,7 @@ const seed = async () => {
       ]
     );
     await connection.execute(
-      ` 
-                INSERT INTO categories (id, categorie, description) VALUES (?, ?, ?)`,
+      `INSERT INTO categories (id, categorie, description) VALUES (?, ?, ?)`,
       [
         2,
         "Polar",
@@ -100,6 +98,8 @@ Tu hésites. Puis tu la prends.</p>
 <br />
 <p>« Suis-moi, Porte-Marque. Il te reste peu de temps avant que le Néant ne réalise que tu lui as échappé. »</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         2,
@@ -127,6 +127,8 @@ Elle la pose entre vous.</p>
 Avant d’agir, tu dois choisir ce que tu es…<br />
 et ce que tu es prêt à devenir. »</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         3,
@@ -157,6 +159,8 @@ Elle peut être scellée. »</p>
 « Pas aujourd’hui.<br />
 Tu manques de réponses. De puissance. Et surtout… de choix. »</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         4,
@@ -200,6 +204,8 @@ et peut-être à une part de toi que tu as perdue.</p>
 <p>La Marque palpite, impatiente.<br />
 Le destin t’attend.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         5,
@@ -261,6 +267,8 @@ Avec l’objet que tu as choisi — ou celui que tu n’as pas refusé.</p>
 <p>Tu ignores encore quand il te sera utile.<br />
 Et surtout… ce qu’il t’a coûté.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         6,
@@ -295,6 +303,8 @@ Ici, le crépuscule ne finit jamais.</p>
 <br />
 <p>Tu entres.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         7,
@@ -360,6 +370,8 @@ Pour un souvenir.</p>
 <br />
 <p>Tu repars.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         8,
@@ -384,6 +396,8 @@ Porteur d’espoir… ou de damnation.</p>
 <br />
 <p>Derrière toi, la Brèche te traque toujours.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         9,
@@ -417,6 +431,8 @@ Quel que soit ton choix, tu sais qu’Ashtorath ne sortira pas indemne de cet é
 <br />
 <p>Le Pacte de Sang est sur le point d’être scellé.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         10,
@@ -444,6 +460,8 @@ le premier Dormeur s’est éveillé.</p>
 <p>Un rayon écarlate transperce les cieux morts.<br />
 Désormais, plus rien ne sera jamais comme avant.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         11,
@@ -472,6 +490,8 @@ Pourtant, tu reconnais leur teinte, leur texture.</p>
 <p>Puis il disparaît dans la brume.<br />
 Il ne reste que le poids du parchemin dans ta main.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         12,
@@ -502,6 +522,8 @@ Une autre présence approche.</p>
 <p>La femme disparaît.<br />
 Il ne reste que toi… et ce qui s’avance pour te confronter.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         13,
@@ -535,6 +557,8 @@ Un abîme figé.</p>
 <p>Ce choix existe depuis toujours.<br />
 Ici, il ne peut plus être repoussé.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         14,
@@ -550,6 +574,8 @@ Aucun ne semble plus sûr qu’un autre.</p>
 <br />
 <p>Un seul Porte-Marque peut franchir le seuil.<br />
 Ce que tu abandonneras ici ne pourra jamais être repris.</p>`,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         15,
@@ -572,6 +598,8 @@ Ni compassion.</p>
 <p>Un frisson te parcourt.<br />
 Ici, tu devras sacrifier ta mémoire… ou ta chair.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         16,
@@ -589,6 +617,8 @@ Quelque chose t’attend.</p>
 <br />
 <p>Quelque chose d’ancien.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         17,
@@ -608,6 +638,8 @@ Consumés par une dévotion qui n’a plus d’objet.</p>
 <br />
 <p>Et quelque chose t’y attend.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         18,
@@ -626,6 +658,8 @@ Laisser la corruption s’ancrer plus profondément.</p>
 <br />
 <p>Quelle que soit ta décision, tu sais qu’elle laissera une trace.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         19,
@@ -650,6 +684,8 @@ Un héritage oublié.</p>
 <br />
 <p>Comme si tu avais déjà bu à sa source.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         20,
@@ -668,6 +704,8 @@ Une fusion.</p>
 <p>Les hurlements de la Brèche te transpercent.<br />
 Elle t’offre une seule issue : la comprendre, ou disparaître.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         21,
@@ -689,6 +727,8 @@ Le choix est simple, mais impossible :</p>
 <p>Tout repose sur toi.<br />
 Le monde d’Yrnwald attend ta décision.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         22,
@@ -711,6 +751,8 @@ La Brèche engloutit tout.<br />
 Les Dormeurs se libèrent.<br />
 Le monde s’effondre… et tu deviens une légende tragique, oubliée mais connue.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
       [
         23,
@@ -729,16 +771,105 @@ Le temps s’étire et se contracte, laissant place à la paix… ou à la mémo
 Tu as changé Yrnwald à jamais.<br />
 Et quelque part, la Brèche se souviendra de ton nom.</p>
 `,
+        1,
+        "/backgrounds/LesCendres.png",
       ],
     ];
     await connection.execute(`SET FOREIGN_KEY_CHECKS = 0;`);
     for (const step of steps) {
       await connection.execute(
-        `INSERT INTO steps (id, texte, background) VALUES (?, ?, ?)`,
+        `INSERT INTO steps (id, text, histories_id, background) VALUES (?, ?, ?, ?)`,
         step
       );
     }
     await connection.execute(`SET FOREIGN_KEY_CHECKS = 1`);
+
+    const choices = [
+      [1, "Suivre la vieille femme à travers les ruines", 1, 2],
+      [2, "Choisir La Lame Noire (guerrier)", 2, 3],
+      [3, "Choisir L’Ombre Sifflante (rôdeur)", 2, 3],
+      [4, "Choisir L’Appel du Sang (sorcier)", 2, 3],
+      [5, "Prendre la Pierre de veillée", 3, 4],
+      [6, "Prendre l’Anneau de murmures", 3, 4],
+      [7, "Prendre la Poche d’ombres", 3, 4],
+      [8, "Prendre la route vers les Peste-Ruines d’Ashtorath", 4, 15],
+      [9, "Prendre la route vers la Forêt de Gräven", 4, 5],
+      [10, "Prendre la route vers les Temples en ruine", 4, 17],
+      [11, "Acheter la Fiole de mémoire", 5, 6],
+      [12, "Acheter la Lame d’obsidienne", 5, 6],
+      [13, "Acheter le Crochet de Brèche", 5, 6],
+      [14, "Suivre la route vers la Tour du Voile", 6, 7],
+      [15, "Utiliser un objet défensif pour bloquer l’ombre", 5, 9],
+      [16, "Utiliser un artefact de voyage pour fuir instantanément", 8, 9],
+      [17, "Invoquer une aide temporaire", 8, 9],
+      [18, "Offrir ton sang à la Reine Écorchée", 9, 10],
+      [19, "Offrir le sien", 9, 10],
+      [20, "Accepter le fragment d’os et continuer vers la suite", 10, 11],
+      [21, "Poursuivre vers la Couronne d’Épine", 11, 12],
+      [22, "Suivre la femme pour récupérer le paquet", 12, 13],
+      [23, "Refuser et continuer seul", 12, 13],
+      [24, "Fuir et laisser ton autre franchir la Brèche", 13, 20],
+      [25, "Combattre son double et prendre sa place", 13, 21],
+      [26, "Fusionner avec son double", 13, 22],
+      [27, "Accepter de donner ta mémoire au Spectre", 15, 16],
+      [28, "Refuser et affronter les ombres", 15, 16],
+      [29, "Suivre la lumière dans les souterrains", 16, 8],
+      [30, "Rebrousser chemin", 16, 8],
+      [31, "Prier auprès des fanatiques", 17, 18],
+      [32, "Tenter de dérober un artefact", 17, 18],
+      [33, "Purifier ta Marque à l’autel", 18, 8],
+      [34, "Corrompre davantage ta Marque à l’autel", 18, 8],
+      [35, "Reprendre la route vers la Tour du Voile", 16, 7],
+      [36, "Quitter les Temples et rejoindre la Tour du Voile", 18, 7],
+      [
+        37,
+        "Aller aux Ruines d’Ashtorath pour réveiller la Reine Écorchée",
+        7,
+        15,
+      ],
+      [38, "Se rendre aux Temples pour éveiller le Veilleur Aveugle", 7, 17],
+      [39, "Se rendre sous le Lac Noir pour éveiller la Mère Cendre", 7, 19],
+      [40, "Éveiller la Mère Cendre en offrant un fragment de toi-même", 19, 8],
+      [41, "Refuser de troubler son sommeil et fuir discrètement", 19, 8],
+      [42, "Fin : Le Héros Oublié", 20, 23],
+      [43, "Fin : Le Brisé", 21, 23],
+      [44, "Fin : Le Souverain Gris", 22, 23],
+      [45, "Revenir à l'accueil.", 23, 0],
+    ];
+    await connection.execute(`SET FOREIGN_KEY_CHECKS =0`);
+    for (const choice of choices) {
+      await connection.execute(
+        `INSERT INTO choices (id, text, steps_id, link_to_step_id)`,
+        choice
+      );
+    }
+
+    const progress = [
+      [1, 1, 1],
+      [1, 3, 2],
+    ];
+    for (const prog of progress) {
+      await connection.execute(
+        `INSERT INTO progress (histories_id, steps_id, users_id) VALUES (?, ?, ?)`,
+        prog
+      );
+    }
+
+    const users = [
+      [1, "Porte marque", "Avatar_porteMarque.png", "porteMarque@yrnwald.com"],
+      [
+        2,
+        "Elian",
+        "Avatar_EllianJeuneRecrue.png",
+        "EllianJeuneRecrue@Virek.com",
+      ],
+    ];
+    for (const user of users) {
+      await connection.execute(
+        `INSERT INTO users (id, pseudo, avatar, email) VALUES (?, ?, ?, ?)`,
+        user
+      );
+    }
 
     console.log("✅ Database schema created successfully");
   } catch (err) {
