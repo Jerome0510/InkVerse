@@ -10,7 +10,7 @@ const Home = () => {
           src="/logos/InkLogoBlanc.png"
           alt="Logo InkVerse"
         />
-        <Link href="">
+        <Link href="/about">
           <img
             className={styles.aboutLogo}
             src="/logos/About.png"

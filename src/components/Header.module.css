@@ -3,17 +3,16 @@
   z-index: 1;
 
   .homeLogo {
-    height: 40px;
-    width: 40px;
+    height: 100px;
+    width: 100px;
     position: fixed;
-    top: 20px;
-    left: 20px;
   }
 }
 
 .headerForHome p {
   position: fixed;
   top: 65px;
-  left: 20px;
+  left: 30px;
   font-size: 12px;
+  color: white;
 }
