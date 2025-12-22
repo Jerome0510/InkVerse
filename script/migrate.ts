@@ -17,10 +17,11 @@ const schema = `
 
     CREATE TABLE IF NOT EXISTS categories (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    categorie VARCHAR (100)
+    categorie VARCHAR (100),
+    description TEXT NOT NULL
     );
 
-    CREATE TABLE IF NOT EXISTS history (
+    CREATE TABLE IF NOT EXISTS histories (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     title TEXT NOT NULL,
     description TEXT NOT NULL,
@@ -29,32 +30,32 @@ const schema = `
     FOREIGN KEY (categories_id) REFERENCES categories(id)
   );
 
-    CREATE TABLE IF NOT EXISTS step (
+    CREATE TABLE IF NOT EXISTS steps (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     text TEXT NOT NULL,
-    history_id INT NOT NULL,
+    histories_id INT NOT NULL,
     background TEXT NOT NULL,
-    FOREIGN KEY (history_id) REFERENCES history(id)
+    FOREIGN KEY (histories_id) REFERENCES histories(id)
   );
 
- CREATE TABLE IF NOT EXISTS choice (
+ CREATE TABLE IF NOT EXISTS choices (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     text TEXT NOT NULL,
-    step_id INT NOT NULL,
+    steps_id INT NOT NULL,
     link_to_step_id INT NOT NULL,
-    FOREIGN KEY (step_id) REFERENCES step(id),
-    FOREIGN KEY (link_to_step_id) REFERENCES step(id)
+    FOREIGN KEY (steps_id) REFERENCES steps(id),
+    FOREIGN KEY (link_to_step_id) REFERENCES steps(id)
     );
 
-     CREATE TABLE IF NOT EXISTS progress (
+  CREATE TABLE IF NOT EXISTS progress (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    history_id INT NOT NULL,
-    step_id INT NOT NULL,
-    user_id INT NOT NULL,
-    FOREIGN KEY (history_id) REFERENCES history(id),
-    FOREIGN KEY (step_id) REFERENCES step(id),
-    FOREIGN KEY (user_id) REFERENCES users(id),
-    UNIQUE KEY unique_user_history (user_id, history_id)
+    histories_id INT NOT NULL,
+    steps_id INT NOT NULL,
+    users_id INT NOT NULL,
+    FOREIGN KEY (histories_id) REFERENCES histories(id),
+    FOREIGN KEY (steps_id) REFERENCES steps(id),
+    FOREIGN KEY (users_id) REFERENCES users(id),
+    UNIQUE KEY unique_user_histories (users_id, histories_id)
   );
   `;
 
