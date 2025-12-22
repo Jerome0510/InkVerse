@@ -6,14 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:migrate": "ts-node --project script/tsconfig.script.json script/migrate.ts",
+    "db:seed": "ts-node --project script/tsconfig.script.json script/seed.ts"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
     "mysql2": "^3.16.0",
     "next": "16.1.0",
+    "next-auth": "^4.24.13",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

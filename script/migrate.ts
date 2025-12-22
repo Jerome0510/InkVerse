@@ -16,16 +16,17 @@ const schema = `
     );
 
     CREATE TABLE IF NOT EXISTS categories (
-    in INT AUTO_INCREMENT PRYMARY KEY NOT NULL,
-    categorie INT NOT NULL
+    id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    categorie VARCHAR (100)
     );
 
-     CREATE TABLE IF NOT EXISTS history (
+    CREATE TABLE IF NOT EXISTS history (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     title TEXT NOT NULL,
     description TEXT NOT NULL,
     categories_id INT NOT NULL,
-    first_step_id INT
+    first_step_id INT,
+    FOREIGN KEY (categories_id) REFERENCES categories(id)
   );
 
     CREATE TABLE IF NOT EXISTS step (
@@ -41,8 +42,8 @@ const schema = `
     text TEXT NOT NULL,
     step_id INT NOT NULL,
     link_to_step_id INT NOT NULL,
-    FOREIGN KEY (object_id) REFERENCES object(id),
-    FOREIGN KEY (step_id) REFERENCES step(id)
+    FOREIGN KEY (step_id) REFERENCES step(id),
+    FOREIGN KEY (link_to_step_id) REFERENCES step(id)
     );
 
      CREATE TABLE IF NOT EXISTS progress (
