@@ -20,4 +20,4 @@ const appRoutes = {
     `${appUrl}/categories/${categoryId}/histories/${HistoryId}`,
 };
 
-export default appRoutes;
+export default { apiRoutes, appRoutes };

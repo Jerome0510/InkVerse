@@ -1,3 +1,6 @@
+"use cleint";
+
+import appRoutes from "@/data/ROUTES";
 import styles from "./CategoriesCard.module.css";
 
 const CategoriesCard = () => {
