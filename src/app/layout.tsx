@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Open_Sans } from "next/font/google";
+import { Rochester } from "next/font/google";
 import "./globals.css";
+
+const rochester = Rochester({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${openSans} ${rochester} antialiased`}
       >
         {children}
       </body>

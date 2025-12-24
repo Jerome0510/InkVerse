@@ -23,8 +23,10 @@ const CategoriesClient = ({ categories }: CategoriesClientProps) => {
             }`}
             onClick={() => setSelectedCategory(category.id)}
           >
-            <h2>{category.categorie}</h2>
-            <p>{category.description}</p>
+            <div className={styles.categoriesCard}>
+              <h2>{category.categorie}</h2>
+              <p>{category.description}</p>
+            </div>
           </div>
         ))}
       </div>

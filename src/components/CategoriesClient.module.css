@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 30px;
+  font-family: rochester;
+  font-size: 38px;
+  font-style: italic;
+}
+
+.categoriesCard {
+  margin: 25px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #4a6ea569;
+  font-size: 14px;
+  font-family: openSans;
+  border: solid white 2px;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.categoriesCard h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.categoriesCard p {
+  text-align: center;
+}
