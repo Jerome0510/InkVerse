@@ -1,10 +1,18 @@
+import { db } from "@/src/lib/db";
+import CategorieModel from "@/src/model/CategorieModel";
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  return NextResponse.json([{ id: 1, name: "Catégorie 1" }]);
-}
-
-export async function POST(request: Request) {
-  const body = await request.json();
-  return NextResponse.json(body);
+  try {
+    const [rows] = await db.query(
+      "SELECT id, categorie, description FROM categories"
+    );
+    return NextResponse.json(rows as CategorieModel[]);
+  } catch (error) {
+    console.error("erreur MySql : ", error);
+    return NextResponse.json(
+      { error: " Internal Server Error" },
+      { status: 500 }
+    );
+  }
 }

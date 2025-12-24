@@ -6,9 +6,9 @@ const apiRoutes = {
   CATEGORY: (categoryId: string | number) =>
     `${apiUrl}/api/categories/${categoryId}`,
 
-  HITSORIES: `${apiUrl}/api/histories`,
+  HISTORIES: `${apiUrl}/api/histories`,
   HISTORY: (historyId: string | number) =>
-    `${apiUrl}/api/histories/${historyId},`,
+    `${apiUrl}/api/histories/${historyId}`,
 };
 
 const appRoutes = {
@@ -16,8 +16,8 @@ const appRoutes = {
   CATEGORY: (categoryId: string | number) =>
     `${appUrl}/categories/${categoryId}`,
 
-  HISTORY: (categoryId: string | number, HistoryId: string | number) =>
-    `${appUrl}/categories/${categoryId}/histories/${HistoryId}`,
+  HISTORY: (categoryId: string | number, historyId: string | number) =>
+    `${appUrl}/categories/${categoryId}/histories/${historyId}`,
 };
 
 export default { apiRoutes, appRoutes };
