@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./page.module.css";
+import ToCategories from "../components/ToCategories";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
             alt="alller vers About"
           />
         </Link>
+        <ToCategories />
       </section>
     </>
   );
