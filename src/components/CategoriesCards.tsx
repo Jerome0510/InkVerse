@@ -2,13 +2,13 @@
 
 import { useState } from "react";
 import CategorieModel from "@/src/model/CategorieModel";
-import styles from "./CategoriesClient.module.css";
+import styles from "./CategoriesCards.module.css";
 
 interface CategoriesClientProps {
   categories: CategorieModel[];
 }
 
-const CategoriesClient = ({ categories }: CategoriesClientProps) => {
+const CategoriesCards = ({ categories }: CategoriesClientProps) => {
   const [selectedCategory, setSelectedCategory] = useState<number | null>(null);
 
   return (
@@ -34,4 +34,4 @@ const CategoriesClient = ({ categories }: CategoriesClientProps) => {
   );
 };
 
-export default CategoriesClient;
+export default CategoriesCards;

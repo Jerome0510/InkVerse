@@ -1,6 +1,6 @@
 import routes from "@/src/data/ROUTES";
 import CategorieModel from "@/src/model/CategorieModel";
-import CategoriesClient from "@/src/components/CategoriesClient";
+import CategoriesCards from "@/src/components/CategoriesCards";
 import styles from "./Categories.module.css";
 
 const Categorie = async () => {
@@ -17,7 +17,7 @@ const Categorie = async () => {
 
     return (
       <section className={styles.categoriesContainer}>
-        <CategoriesClient categories={categories} />
+        <CategoriesCards categories={categories} />
       </section>
     );
   } catch (error) {
