@@ -1,6 +1,7 @@
 import routes from "@/src/data/ROUTES";
 import CategorieModel from "@/src/model/CategorieModel";
 import CategoriesClient from "@/src/components/CategoriesClient";
+import styles from "./Categories.module.css";
 
 const Categorie = async () => {
   try {
@@ -14,7 +15,11 @@ const Categorie = async () => {
 
     const categories: CategorieModel[] = await apiResult.json();
 
-    return <CategoriesClient categories={categories} />;
+    return (
+      <section className={styles.categoriesContainer}>
+        <CategoriesClient categories={categories} />
+      </section>
+    );
   } catch (error) {
     console.error("Erreur:", error);
     return (
