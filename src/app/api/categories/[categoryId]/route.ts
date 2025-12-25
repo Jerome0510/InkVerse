@@ -3,7 +3,7 @@ import CategorieModel from "@/src/model/CategorieModel";
 import { NextResponse } from "next/server";
 
 export async function GET(
-  request: Request,
+  _request: Request,
   { params }: { params: { categoryId: string } }
 ) {
   try {
