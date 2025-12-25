@@ -5,6 +5,8 @@ const apiRoutes = {
   CATEGORIES: `${apiUrl}/api/categories`,
   CATEGORY: (categoryId: string | number) =>
     `${apiUrl}/api/categories/${categoryId}`,
+  CATEGORY_HISTORIES: (categoryId: string | number) =>
+    `${apiUrl}/api/categories/${categoryId}/histories`,
 
   HISTORIES: `${apiUrl}/api/histories`,
   HISTORY: (historyId: string | number) =>
