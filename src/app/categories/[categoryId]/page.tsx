@@ -1,11 +1,39 @@
-import CategorieModel from "@/src/model/CategorieModel";
+import routes from "@/src/data/ROUTES";
+import HistoriesModel from "@/src/model/HistoriesModel";
+import styles from "./category.module.css";
 
-type Props = { params: { categoryId: string } };
+const Category = async ({
+  params,
+}: {
+  params: Promise<{ categoryId: string }>;
+}) => {
+  const { categoryId } = await params;
+  try {
+    const apiResult = await fetch(
+      routes.apiRoutes.CATEGORY_HISTORIES(categoryId),
+      { cache: "no-store" }
+    );
 
-const CategoryPage = ({ params }: Props) => {
-  return (
-    <h1>ici tu va afficher les histoires par categories{params.categoryId}</h1>
-  );
+    if (!apiResult.ok) {
+      throw new Error(`Failed to fetch histories: ${apiResult.status}`);
+    }
+
+    const histories: HistoriesModel[] = await apiResult.json();
+
+    return (
+      <section className={styles.categoryContainer}>
+        <h2>ici composant CategoryCards</h2>
+      </section>
+    );
+  } catch (error) {
+    console.error("Erreur:", error);
+    return (
+      <div>
+        <h1>Erreur</h1>
+        <p>Erreur lors du chargement des histoires</p>
+      </div>
+    );
+  }
 };
 
-export default CategoryPage;
+export default Category;

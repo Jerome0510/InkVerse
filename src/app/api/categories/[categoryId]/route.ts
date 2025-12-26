@@ -7,7 +7,7 @@ export async function GET(
   { params }: { params: { categoryId: string } }
 ) {
   try {
-    const { categoryId } = await params;
+    const { categoryId } = params;
 
     const [rows] = await db.query(
       "SELECT id, categorie, description FROM categories WHERE id = ?",
