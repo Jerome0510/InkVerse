@@ -23,8 +23,10 @@ const CategoryCard = ({ category, histories }: CategoryCardProps) => {
         {histories.map((history) => (
           <div key={history.id} className={styles.historyCard}>
             <Link href={`/histories/${history.id}`}>
-              <h2>{history.title}</h2>
-              <p>{history.description}</p>
+              <div className={styles.historyText}>
+                <h2>{history.title}</h2>
+                <p>{history.description}</p>
+              </div>
             </Link>
           </div>
         ))}

@@ -26,19 +26,21 @@ const seed = async () => {
             SET FOREIGN_KEY_CHECKS = 1;`);
 
     await connection.execute(
-      `INSERT INTO categories (id, categorie, description) VALUES (?, ?, ?)`,
+      `INSERT INTO categories (id, categorie, description, background) VALUES (?, ?, ?, ?)`,
       [
         1,
         "Heroic fantasy",
         "Vivez des aventures épiques au cœur de mondes imaginaires médiévaux et fantastiques.",
+        "/backgrounds/HeroicFantasy.png",
       ]
     );
     await connection.execute(
-      `INSERT INTO categories (id, categorie, description) VALUES (?, ?, ?)`,
+      `INSERT INTO categories (id, categorie, description, background) VALUES (?, ?, ?, ?)`,
       [
         2,
         "Polar",
         "Menez l'enquête au cœur d'intrigues sombres et mystérieuses où le crime côtoie le suspense.",
+        "/backgrounds/Polar.png",
       ]
     );
 
@@ -47,7 +49,6 @@ const seed = async () => {
         1,
         "Les Cendres d'Yrnwald",
         "Une aventure sombre dans un monde dévasté par la Peste Rouge, où tu incarnes un Porte-Marque sans mémoire qui doit refermer la Brèche originelle pour sauver ce qui reste du monde.",
-        "/backgrounds/LesCendres.png",
         1,
         1,
       ],
@@ -55,14 +56,13 @@ const seed = async () => {
         2,
         "Les Lueurs du Froid",
         "Virek, mégalopole verticale, rongée par les pluies acides et les néons publicitaires.Toi, Elian, 23 ans, tout juste diplômé de l’Académie Fédérale d’Enquête. Première affectation. Tu n’as même pas eu le temps de poser ton sac qu’un appel d’urgence te propulse dans une ruelle du secteur Delta-9.",
-        "/backgrounds/LesLueurs.png",
         2,
         24,
       ],
     ];
     for (const history of histories) {
       await connection.execute(
-        `INSERT INTO histories (id, title, description, background, categories_id, first_step_id) VALUES (?, ?, ?, ?, ?, ?)`,
+        `INSERT INTO histories (id, title, description, categories_id, first_step_id) VALUES (?, ?, ?, ?, ?)`,
         history
       );
     }

@@ -27,8 +27,11 @@ const Category = async ({
     const histories: HistoriesModel[] = await historiesRes.json();
 
     return (
-      <section className={styles.categoryContainer}>
-        <CategoryCard category={category} histories={histories} />
+      <section className={styles.forBackground}>
+        <img src={category.background} alt={category.categorie} />
+        <div className={styles.categorycontainer}>
+          <CategoryCard category={category} histories={histories} />
+        </div>
       </section>
     );
   } catch (error) {

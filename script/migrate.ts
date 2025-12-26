@@ -18,14 +18,14 @@ const schema = `
     CREATE TABLE IF NOT EXISTS categories (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     categorie VARCHAR (100),
-    description TEXT NOT NULL
+    description TEXT NOT NULL,
+    background TEXT NOT NULL
     );
 
     CREATE TABLE IF NOT EXISTS histories (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     title TEXT NOT NULL,
     description TEXT NOT NULL,
-    background VARCHAR (100) NOT NULL,
     categories_id INT NOT NULL,
     first_step_id INT,
     FOREIGN KEY (categories_id) REFERENCES categories(id)
