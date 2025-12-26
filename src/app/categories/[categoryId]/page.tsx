@@ -1,6 +1,8 @@
 import routes from "@/src/data/ROUTES";
 import HistoriesModel from "@/src/model/HistoriesModel";
+import CategorieModel from "@/src/model/CategorieModel";
 import styles from "./category.module.css";
+import CategoryCard from "@/src/components/CategoryCard";
 
 const Category = async ({
   params,
@@ -8,21 +10,25 @@ const Category = async ({
   params: Promise<{ categoryId: string }>;
 }) => {
   const { categoryId } = await params;
-  try {
-    const apiResult = await fetch(
-      routes.apiRoutes.CATEGORY_HISTORIES(categoryId),
-      { cache: "no-store" }
-    );
 
-    if (!apiResult.ok) {
-      throw new Error(`Failed to fetch histories: ${apiResult.status}`);
+  try {
+    const [categoryRes, historiesRes] = await Promise.all([
+      fetch(routes.apiRoutes.CATEGORY(categoryId), { cache: "no-store" }),
+      fetch(routes.apiRoutes.CATEGORY_HISTORIES(categoryId), {
+        cache: "no-store",
+      }),
+    ]);
+
+    if (!categoryRes.ok || !historiesRes.ok) {
+      throw new Error("Erreur lors du fetch");
     }
 
-    const histories: HistoriesModel[] = await apiResult.json();
+    const category: CategorieModel = await categoryRes.json();
+    const histories: HistoriesModel[] = await historiesRes.json();
 
     return (
       <section className={styles.categoryContainer}>
-        <h2>ici composant CategoryCards</h2>
+        <CategoryCard category={category} histories={histories} />
       </section>
     );
   } catch (error) {
@@ -30,7 +36,7 @@ const Category = async ({
     return (
       <div>
         <h1>Erreur</h1>
-        <p>Erreur lors du chargement des histoires</p>
+        <p>Erreur lors du chargement de la catégorie</p>
       </div>
     );
   }
