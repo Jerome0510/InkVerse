@@ -10,7 +10,7 @@ export async function GET(
     const { categoryId } = await params;
 
     const [rows] = await db.query(
-      "SELECT id, categorie, description FROM categories WHERE id = ?",
+      "SELECT id, categorie, description, background FROM categories WHERE id = ?",
       [categoryId]
     );
 

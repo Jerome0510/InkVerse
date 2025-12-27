@@ -26,19 +26,21 @@ const seed = async () => {
             SET FOREIGN_KEY_CHECKS = 1;`);
 
     await connection.execute(
-      `INSERT INTO categories (id, categorie, description) VALUES (?, ?, ?)`,
+      `INSERT INTO categories (id, categorie, description, background) VALUES (?, ?, ?, ?)`,
       [
         1,
         "Heroic fantasy",
         "Vivez des aventures épiques au cœur de mondes imaginaires médiévaux et fantastiques.",
+        "/backgrounds/HeroicFantasy.png",
       ]
     );
     await connection.execute(
-      `INSERT INTO categories (id, categorie, description) VALUES (?, ?, ?)`,
+      `INSERT INTO categories (id, categorie, description, background) VALUES (?, ?, ?, ?)`,
       [
         2,
         "Polar",
         "Menez l'enquête au cœur d'intrigues sombres et mystérieuses où le crime côtoie le suspense.",
+        "/backgrounds/Polar.png",
       ]
     );
 

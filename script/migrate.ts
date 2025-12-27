@@ -18,7 +18,8 @@ const schema = `
     CREATE TABLE IF NOT EXISTS categories (
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     categorie VARCHAR (100),
-    description TEXT NOT NULL
+    description TEXT NOT NULL,
+    background TEXT NOT NULL
     );
 
     CREATE TABLE IF NOT EXISTS histories (

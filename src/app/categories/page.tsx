@@ -3,7 +3,7 @@ import CategorieModel from "@/src/model/CategorieModel";
 import CategoriesCards from "@/src/components/CategoriesCards";
 import styles from "./Categories.module.css";
 
-const Categorie = async () => {
+const Categories = async () => {
   try {
     const apiResult = await fetch(routes.apiRoutes.CATEGORIES, {
       cache: "no-store",
@@ -31,4 +31,4 @@ const Categorie = async () => {
   }
 };
 
-export default Categorie;
+export default Categories;

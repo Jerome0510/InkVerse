@@ -14,7 +14,7 @@ const CategoriesCards = ({ categories }: CategoriesCardsProps) => {
 
   return (
     <div>
-      <h1 className={styles.title}>Choisis une catégorie</h1>
+      <h2 className={styles.title}>Choisis une catégorie</h2>
       <div className={styles.categoriesContainer}>
         {categories.map((category) => (
           <div key={category.id} className={styles.categoriesCard}>
