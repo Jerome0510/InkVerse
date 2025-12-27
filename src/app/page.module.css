@@ -1,0 +1,24 @@
+.homeBackground {
+  background-image: url(/backgrounds/FEAccueil.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeLogo {
+  height: 400px;
+}
+
+.aboutLogo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  cursor: pointer;
+}

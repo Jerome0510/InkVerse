@@ -1,0 +1,44 @@
+.linkToCategories {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: "OpenSans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  overflow: visible;
+}
+
+.glow {
+  position: absolute;
+  inset: -8px;
+  background: linear-gradient(90deg, #2e4a7d, #3e6b8f, #eadfcb);
+  opacity: 0.5;
+  filter: blur(22px);
+  transition: opacity 0.4s ease, filter 0.4s ease;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 14px;
+  background: #e6e6e6;
+  color: #111111;
+  border-radius: 50px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.linkToCategories:hover .glow {
+  opacity: 0.8;
+  filter: blur(26px);
+}
+
+.linkToCategories:hover .content {
+  transform: scale(1.05);
+  background: #f0f0f0;
+}

@@ -1,0 +1,41 @@
+.aboutBody {
+  background-image: url(/backgrounds/wallAbout.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.aboutMain {
+  height: auto;
+  max-width: 80%;
+  padding: 25px;
+  font-family: "open sans";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #4a70e160;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.aboutMain p {
+  font-size: 14px;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-weight: 100;
+}
+
+.aboutTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.profilButton {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  gap: 30px;
+  list-style: none;
+}
