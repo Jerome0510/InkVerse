@@ -10,7 +10,7 @@ export async function GET(
 
     const [rows] = await db.query(
       `
-      SELECT id, title, description, categories_id, first_step_id
+      SELECT id, title, description, background, categories_id, first_step_id
       FROM histories
       WHERE categories_id = ?
       `,

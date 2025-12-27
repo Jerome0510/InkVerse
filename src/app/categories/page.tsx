@@ -1,11 +1,11 @@
-import routes from "@/src/data/ROUTES";
+import { apiRoutes } from "@/src/data/ROUTES";
 import CategorieModel from "@/src/model/CategorieModel";
 import CategoriesCards from "@/src/components/CategoriesCards";
 import styles from "./Categories.module.css";
 
 const Categories = async () => {
   try {
-    const apiResult = await fetch(routes.apiRoutes.CATEGORIES, {
+    const apiResult = await fetch(apiRoutes.CATEGORIES, {
       cache: "no-store",
     });
 

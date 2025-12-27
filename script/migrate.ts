@@ -26,6 +26,7 @@ const schema = `
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     title TEXT NOT NULL,
     description TEXT NOT NULL,
+    background TEXT NOT NULL,
     categories_id INT NOT NULL,
     first_step_id INT,
     FOREIGN KEY (categories_id) REFERENCES categories(id)
