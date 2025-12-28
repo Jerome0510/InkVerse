@@ -30,7 +30,7 @@ const appRoutes = {
     historyId: string | number,
     stepId: string | number
   ) =>
-    `${appUrl}/categories/${categoryId}/histories/${historyId}/steps/${stepId},`,
+    `${appUrl}/categories/${categoryId}/histories/${historyId}/steps/${stepId}`,
 };
 
 export { apiRoutes, appRoutes };
