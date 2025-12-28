@@ -1,5 +1,6 @@
 import { apiRoutes } from "@/src/data/ROUTES";
 import HistoriesModel from "@/src/model/HistoriesModel";
+import HistoryCard from "@/src/components/HistoryCard";
 import styles from "./history.module.css";
 
 interface HistoriesProps {
@@ -27,7 +28,7 @@ const HistoryPage = async ({ params }: HistoriesProps) => {
       <section className={styles.forBackground}>
         <img src={history[0].background} alt={history[0].title} />
         <div className={styles.historyContainer}>
-          ici le composant historyCard
+          <HistoryCard histories={history} />
         </div>
       </section>
     );
