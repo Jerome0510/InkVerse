@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
 import HistoriesModel from "../model/HistoriesModel";
 import CategorieModel from "../model/CategorieModel";
 import Link from "next/link";
 import styles from "./CategoryCard.module.css";
+import { appRoutes } from "../data/ROUTES";
 
 interface CategoryCardProps {
   category: CategorieModel;
@@ -12,8 +12,6 @@ interface CategoryCardProps {
 }
 
 const CategoryCard = ({ category, histories }: CategoryCardProps) => {
-  const [selectedHistory, setSelectedHistory] = useState<number | null>(null);
-
   return (
     <section>
       <div className={styles.categoryTitle}>
@@ -22,7 +20,7 @@ const CategoryCard = ({ category, histories }: CategoryCardProps) => {
       <div className={styles.historiesCard}>
         {histories.map((history) => (
           <div key={history.id} className={styles.historyCard}>
-            <Link href={`/histories/${history.id}`}>
+            <Link href={appRoutes.HISTORY(category.id, history.id)}>
               <div className={styles.historyText}>
                 <h2>{history.title}</h2>
                 <p>{history.description}</p>
