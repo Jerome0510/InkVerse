@@ -1,37 +1,39 @@
 import { apiRoutes } from "@/src/data/ROUTES";
 import StepModel from "@/src/model/StepModel";
 import styles from "./steps.module.css";
+import StepsCard from "@/src/components/StepsCard";
+import HistoriesModel from "@/src/model/HistoriesModel";
 
 interface StepsProps {
-  params: Promise<{
+  params: {
     categoryId: string | number;
     historyId: string | number;
     stepId: string | number;
-  }>;
+  };
 }
 
 const StepsPage = async ({ params }: StepsProps) => {
+  const { categoryId, historyId, stepId } = await params;
   try {
-    const { categoryId, historyId, stepId } = await params;
-
-    const apiResult = await fetch(
-      apiRoutes.STEPS(categoryId, historyId, stepId),
-      {
+    const [historyRes, stepRes] = await Promise.all([
+      fetch(apiRoutes.HISTORY(categoryId, historyId), { cache: "no-store" }),
+      fetch(apiRoutes.STEPS(categoryId, historyId, stepId), {
         cache: "no-store",
-      }
-    );
+      }),
+    ]);
 
-    if (!apiResult.ok) {
-      throw new Error("Erreur lors du fetch");
+    if (!historyRes.ok || !stepRes.ok) {
+      throw new Error("Erreur lors du fetch ");
     }
 
-    const step: StepModel[] = await apiResult.json();
+    const history: HistoriesModel[] = await historyRes.json();
+    const step: StepModel[] = await stepRes.json();
 
     return (
       <section className={styles.forStepBackground}>
         <img src={step[0].background} alt="Fond d'ecran" />
         <div>
-          <p>ici composant stepCard</p>
+          <StepsCard histories={history} steps={step} />
         </div>
       </section>
     );

@@ -1,0 +1,22 @@
+.stepTitle {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: OpenSans;
+}
+
+.StepCard {
+  padding: 12px;
+  border-style: solid;
+  border-radius: 15px;
+  background-color: #f5f5e1a6;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.text {
+  font-family: OpenSans;
+  font-size: 12px;
+  color: #2e2e2e;
+  margin-left: 2%;
+}
