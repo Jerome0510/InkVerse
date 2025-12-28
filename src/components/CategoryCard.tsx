@@ -5,7 +5,7 @@ import HistoriesModel from "../model/HistoriesModel";
 import CategorieModel from "../model/CategorieModel";
 import Link from "next/link";
 import styles from "./CategoryCard.module.css";
-import { apiRoutes, appRoutes } from "../data/ROUTES";
+import { appRoutes } from "../data/ROUTES";
 
 interface CategoryCardProps {
   category: CategorieModel;
@@ -13,8 +13,6 @@ interface CategoryCardProps {
 }
 
 const CategoryCard = ({ category, histories }: CategoryCardProps) => {
-  const [selectedHistory, setSelectedHistory] = useState<number | null>(null);
-
   return (
     <section>
       <div className={styles.categoryTitle}>
