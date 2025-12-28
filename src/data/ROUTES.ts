@@ -7,17 +7,14 @@ const apiRoutes = {
     `${apiUrl}/api/categories/${categoryId}`,
   CATEGORY_HISTORIES: (categoryId: string | number) =>
     `${apiUrl}/api/categories/${categoryId}/histories`,
-
-  HISTORIES: `${apiUrl}/api/histories`,
-  HISTORY: (historyId: string | number) =>
-    `${apiUrl}/api/histories/${historyId}`,
+  HISTORY: (categoryId: string | number, historyId: string | number) =>
+    `${apiUrl}/api/categories/${categoryId}histories/${historyId}`,
 };
 
 const appRoutes = {
   CATEGORIES: `${appUrl}/categories`,
   CATEGORY: (categoryId: string | number) =>
     `${appUrl}/categories/${categoryId}`,
-
   HISTORY: (categoryId: string | number, historyId: string | number) =>
     `${appUrl}/categories/${categoryId}/histories/${historyId}`,
 };
