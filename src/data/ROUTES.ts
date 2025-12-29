@@ -16,6 +16,13 @@ const apiRoutes = {
     stepId: string | number
   ) =>
     `${apiUrl}/api/categories/${categoryId}/histories/${historyId}/steps/${stepId}`,
+
+  CHOICES: (
+    categoryId: string | number,
+    historyId: string | number,
+    stepId: string | number
+  ) =>
+    `${apiUrl}/api/categories/${categoryId}/histories/${historyId}/steps/${stepId}/choices`,
 };
 
 const appRoutes = {
