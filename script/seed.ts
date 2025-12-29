@@ -778,6 +778,296 @@ Et quelque part, la Brèche se souviendra de ton nom.</p>
         1,
         "/backgrounds/LesCendres.png",
       ],
+      [
+        24,
+        `<p>&nbsp;&nbsp;&nbsp;La pluie te tombe dessus comme une sentence.<br />
+Première nuit à Virek, et déjà elle ne t’épargne pas. Tu viens d’arriver. Pas eu le temps de poser tes affaires, pas eu le temps de comprendre la ville.<br />
+À peine le badge activé, déjà appelé sur le terrain.</p>
+
+<p>&nbsp;&nbsp;&nbsp;La ruelle est étroite. Trop étroite.<br />
+Les murs suintent d’humidité et de secrets. L’air est lourd, chargé d’électricité.</p>
+
+<p>&nbsp;&nbsp;&nbsp;À tes pieds, un corps.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Un homme allongé sur le dos, les yeux ouverts.<br />
+Pas de sang. Pas d’arme. Pas même un cri enregistré.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Juste cette odeur d’ozone.<br />
+Et cette marque circulaire, nette, brûlée à la tempe. Ce n’est pas un tir. Ce n’est pas une lame.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Autour de toi, la ville observe en silence.<br />
+Des fenêtres s’entrouvrent puis se referment. Des drones passent, indifférents.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu n’as encore rien signalé à ton superviseur.<br />
+Techniquement, tu devrais attendre l’équipe médico-légale. Mais tu viens d’arriver ici, et tu comprends déjà une chose :</p>
+
+<p>&nbsp;&nbsp;&nbsp;À Virek, attendre, c’est laisser quelqu’un d’autre décider à ta place.</p>
+
+<p>&nbsp;&nbsp;&nbsp;La pluie continue de tomber. Le corps, lui, ne dira plus rien.<br />
+Tu es seul. Et pour l’instant, personne ne t’empêche de choisir.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Trois options s’offrent à toi.</p>
+
+`,
+        2,
+        "/backgrounds/Lueur24.png",
+      ],
+      [
+        25,
+        `<p>&nbsp;&nbsp;&nbsp;Ton gant effleure la tempe, glisse vers la nuque.<br />
+La peau est froide. Trop froide.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Un léger relief résiste sous tes doigts.<br />
+Pas un os. Pas une blessure.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Quelque chose d’implanté. Mal dissimulé.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu sors ton scalpel de terrain.<br />
+Officiellement, il est réservé aux prélèvements.<br />
+Officieusement… il est là pour les vérités qu’on enterre.</p>
+
+<p>&nbsp;&nbsp;&nbsp;La lame gratte doucement. La chair cède.<br />
+Et tu le vois.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Un micro-module cristallin, parfaitement taillé.<br />
+Logé là où aucun implant légal ne devrait se trouver.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Une technologie bannie depuis la réforme énergétique.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu filmes. Rapidement.<br />
+Tu sécurises les données.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Un bip sec te fige.<br />
+Ton visuel se brouille. Ton oreille bourdonne.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Une voix synthétique s’impose :</p>
+
+<p>&nbsp;&nbsp;&nbsp;— « Agent. Accès restreint détecté. Veuillez rester sur place. »</p>
+
+<p>&nbsp;&nbsp;&nbsp;Le ciel s’illumine d’un flash bleu.<br />
+Un drone noir, sans marquage, s’immobilise au-dessus de toi.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu viens de franchir une limite invisible.</p>
+
+`,
+        2,
+        "/backgrounds/LueurTrame.png",
+      ],
+      [
+        26,
+        `<p>&nbsp;&nbsp;&nbsp;Tu as désobéi.<br />
+Et maintenant, la Ville le sait.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Le drone flotte au-dessus de toi, immobile.<br />
+Son bourdonnement grave te traverse la poitrine.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Un faisceau balaie ton visage, ta rétine, ton identifiant neural.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu sens ton accès réseau s’effondrer, couche après couche.<br />
+Tes canaux sécurisés se ferment.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Ton nom disparaît.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Une alerte rouge pulse dans ta visière :</p>
+
+<p>&nbsp;&nbsp;&nbsp;PROTOCOLE DE SUSPENSION — ACTIF</p>
+
+<p>&nbsp;&nbsp;&nbsp;Le quartier s’éteint.<br />
+Plus de drones civils. Plus de voix. Même la pluie semble se figer.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Ce n’était pas un crime isolé.<br />
+C’était une opération d’effacement.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu as vu l’implant.<br />
+Un vestige d’un pouvoir que la Ville refuse de reconnaître.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu sais.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Et désormais, c’est toi qu’on va effacer.</p>
+
+`,
+        2,
+        "/backgrounds/LueurTrame.png",
+      ],
+      [
+        27,
+        `<p>&nbsp;&nbsp;&nbsp;La pluie s’abat sans relâche.<br />
+Mais quelque chose attire ton regard.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Au quatrième étage d’un immeuble décrépit, une lumière pâle vacille derrière des rideaux délavés.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Une silhouette apparaît.<br />
+Puis plus rien.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu traverses la ruelle.<br />
+Le hall pue l’humidité et la peur ancienne.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Des caméras factices pendent aux murs, mortes depuis des années.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Chaque marche gémit sous ton poids.<br />
+Tes capteurs s’affolent : tu es observé.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Mais pas menacé.<br />
+Pas encore.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Devant la porte : aucun nom.<br />
+Un œilleton noir. Un cadenas électronique hors service.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu frappes.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Une voix rauque fuse de l’intérieur :</p>
+
+<p>&nbsp;&nbsp;&nbsp;— « T’es pas du coin. Et t’étais pas censé voir ça. »</p>
+
+<p>&nbsp;&nbsp;&nbsp;À Virek, regarder, c’est déjà trahir.</p>
+
+`,
+        2,
+        "/backgrounds/LueurTrame.png",
+      ],
+      [
+        28,
+        `<p>&nbsp;&nbsp;&nbsp;Tu frappes encore.<br />
+Cette fois, trois coups secs.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Ta main se pose sur la serrure.<br />
+Elle cède dans un grincement métallique.</p>
+
+<p>&nbsp;&nbsp;&nbsp;L’appartement est sombre.<br />
+Saturé d’odeurs de nicotine, d’huile rance et de peur contenue.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Une femme t’observe depuis un fauteuil élimé.<br />
+Cinquante ans, peut-être.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Les yeux rouges de fatigue ou de larmes.<br />
+Son bras cybernétique date d’avant les interdictions.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Rafistolé avec du cuivre et du plastique alimentaire.</p>
+
+<p>&nbsp;&nbsp;&nbsp;— « Il n’a pas crié, » murmure-t-elle.<br />
+« Il s’est juste arrêté. Comme si on l’avait débranché. »</p>
+
+<p>&nbsp;&nbsp;&nbsp;Elle te tend un petit cube translucide.<br />
+Un bloc mémoire utilisé pour le cryptage illégal.</p>
+
+<p>&nbsp;&nbsp;&nbsp;— « Il m’a dit de le donner à quelqu’un qui comprendrait. »</p>
+
+<p>&nbsp;&nbsp;&nbsp;Elle détourne le regard.</p>
+
+<p>&nbsp;&nbsp;&nbsp;— « Partez. Vous êtes déjà mort. »</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu repars.<br />
+Dehors, la pluie tombe plus fort.</p>
+
+`,
+        2,
+        "/backgrounds/LueurTrame.png",
+      ],
+      [
+        29,
+        `<p>&nbsp;&nbsp;&nbsp;Le cube pulse dans ta main. Faiblement, comme un cœur artificiel.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;La ruelle est trop calme. Pas de drones. Pas de voix. Rien de normal.</p>
+<p>Une cabine de cryptocommunication fonctionne encore. Tu t’y engouffres.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;L’écran s’illumine.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;— “Connexion établie. Nœud 114 débloqué.”</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Tu hésites. Combien sont morts pour que ces données arrivent jusqu’à toi ?</p>
+<p>Tu insères le cube. Le transfert démarre.</p>
+<p>Tu ignores qui reçoit le message. Tu ignores ce qu’il déclenchera.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Mais quelque chose vient de quitter la Ville.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Et rien ne pourra l’y faire revenir.</p>
+`,
+        2,
+        "/backgrounds/Lueur29.png",
+      ],
+      [
+        30,
+        `<p>&nbsp;&nbsp;&nbsp;À l’abri d’un porche, tu actives un canal ancien. Un cryptage d’étudiant sale, lent, invisible.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;— “Linh. C’est Elian. J’ai un corps. Une marque étrange.”</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Un silence trop long.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;— “Tu sais que t’es en train de foutre ta carrière en l’air ?”</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Des lignes de code défilent sur ta visière.<br />
+Tu voies apparaitre un message: flux drones piratés.</p>
+<br />
+<p>Pause.<br />
+Zoom.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Une silhouette encapuchonnée. Puis un détail minuscule.</p>
+Un badge gouvernemental.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;— “C’est une exécution propre,” souffle Linh.<br />
+“Supprime tout. Oublie.”</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Tu fais une capture. Tu sais que ce n’est pas assez.</p>
+<br />
+<p>Mais ça pourra servir de preuve, plus tard.</p>
+`,
+        2,
+        "/backgrounds/LueurTrame.png",
+      ],
+      [
+        31,
+        `<p>&nbsp;&nbsp;&nbsp;La ville t’a vu.</p>
+<p>Chaque caméra, chaque écran, chaque drone<br />
+peut désormais comparer ton visage à ce que tu sais.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Dans ton esprit, l’image est figée. Un badge, un assassin sans nom.</p>
+<p>Un dernier message de Linh :</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;« Supprime tout. Tu peux encore t’en sortir. »</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Tu ne réponds pas. Tu observes ton reflet dans une vitre sale.<br />
+Jeune. Fatigué. Hors-la-loi.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Tu pourrais fuir ou rester.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;Et un jour, parler.</p>
+`,
+        2,
+        "/backgrounds/Lueur31.png",
+      ],
+      [
+        32,
+        `<p>&nbsp;&nbsp;&nbsp;La pluie continue de tomber sur Virek, indifférente aux vérités qu’elle recouvre.<br />
+Les drones reprennent leur ronde, les écrans se rallument, et la Ville fait ce qu’elle fait le mieux : oublier.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Officiellement, rien ne s’est passé.<br />
+Un incident mineur. Un rapport classé. La machine avance.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Mais quelque part, une trace subsiste.<br />
+Une image volée. Un fragment de mémoire. Un nom qui ne devait pas exister.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu as appris une chose essentielle :<br />
+à Virek, la vérité ne disparaît jamais vraiment.<br />
+Elle change de forme… et de porteur.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu aurais pu détourner le regard.<br />
+Effacer. Oublier. Survivre.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Mais chaque choix laisse une empreinte,<br />
+et certaines brûlent plus longtemps que le froid.</p>
+
+<p>&nbsp;&nbsp;&nbsp;La Ville ne t’a pas encore pris.<br />
+Pas encore.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Car tant qu’une lueur subsistera dans le froid,<br />
+le système ne sera jamais totalement à l’abri.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Ce n’était qu’un avertissement.<br />
+La première fissure.</p>
+`,
+        2,
+        "/backgrounds/LueurFin.png",
+      ],
     ];
     await connection.execute(`SET FOREIGN_KEY_CHECKS = 0;`);
     for (const step of steps) {
@@ -825,12 +1115,7 @@ Et quelque part, la Brèche se souviendra de ton nom.</p>
       [34, "Corrompre davantage ta Marque à l’autel", 18, 8],
       [35, "Reprendre la route vers la Tour du Voile", 16, 7],
       [36, "Quitter les Temples et rejoindre la Tour du Voile", 18, 7],
-      [
-        37,
-        "Aller aux Ruines d’Ashtorath pour réveiller la Reine Écorchée",
-        7,
-        15,
-      ],
+      [37, "Aller aux Ruines d’Ashtorath, réveiller la Reine Écorchée", 7, 15],
       [38, "Se rendre aux Temples pour éveiller le Veilleur Aveugle", 7, 17],
       [39, "Se rendre sous le Lac Noir pour éveiller la Mère Cendre", 7, 19],
       [40, "Éveiller la Mère Cendre en offrant un fragment de toi-même", 19, 8],
@@ -839,6 +1124,18 @@ Et quelque part, la Brèche se souviendra de ton nom.</p>
       [43, "Fin : Le Brisé", 21, 23],
       [44, "Fin : Le Souverain Gris", 22, 23],
       [45, "Revenir à l'accueil.", 23, 0],
+
+      [46, "Explorer les environs à la recherche d’un témoin", 24, 27],
+      [47, "Examiner le corps malgré le protocole", 24, 25],
+      [48, "Continuer vers la suite", 25, 26],
+      [49, "Appeler une ancienne camarade de promo dans la tech", 24, 30],
+      [50, "Insister et frapper à la porte", 27, 28],
+      [51, "Transmettre le bloc mémoire", 28, 29],
+      [52, "Aller à la capture interdite", 30, 31],
+      [54, "Ce que l’on ne doit pas voir", 26, 32],
+      [55, "Le témoin silencieux", 29, 32],
+      [56, "La capture interdite", 31, 32],
+      [57, "Revenir à l'accueil.", 32, 0],
     ];
     await connection.execute(`SET FOREIGN_KEY_CHECKS =0`);
     for (const choice of choices) {
