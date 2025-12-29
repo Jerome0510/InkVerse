@@ -2,10 +2,11 @@ import { apiRoutes } from "@/src/data/ROUTES";
 import StepModel from "@/src/model/StepModel";
 import styles from "./steps.module.css";
 import StepsCard from "@/src/components/StepsCard";
+import NoBackNavigation from "@/src/components/NoBackNavigation";
+import CategorieModel from "@/src/model/CategorieModel";
 import HistoriesModel from "@/src/model/HistoriesModel";
 import ChoiceModel from "@/src/model/ChoiceModel";
 import ChoicesCard from "@/src/components/ChoicesCard";
-import CategorieModel from "@/src/model/CategorieModel";
 
 interface StepsProps {
   params: {
@@ -39,17 +40,20 @@ const StepsPage = async ({ params }: StepsProps) => {
     const choices: ChoiceModel[] = await choiceRes.json();
 
     return (
-      <section className={styles.forStepBackground}>
-        <img src={step[0].background} alt="Fond d'ecran" />
-        <div>
-          <StepsCard histories={history} steps={step} />
-          <ChoicesCard
-            categories={category}
-            histories={history[0]}
-            choices={choices}
-          />
-        </div>
-      </section>
+      <>
+        <NoBackNavigation />
+        <section className={styles.forStepBackground}>
+          <img src={step[0].background} alt="Fond d'ecran" />
+          <div>
+            <StepsCard histories={history} steps={step} />
+            <ChoicesCard
+              categories={category}
+              histories={history[0]}
+              choices={choices}
+            />
+          </div>
+        </section>
+      </>
     );
   } catch (error) {
     console.error("Erreur:", error);

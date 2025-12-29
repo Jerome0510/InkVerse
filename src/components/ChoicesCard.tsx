@@ -52,6 +52,10 @@ const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
     setTimerChoice(null);
   };
 
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+  };
+
   return (
     <div className={styles.choicesContain}>
       <ul className={styles.choicesList}>
@@ -72,6 +76,7 @@ const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
                   ? "/"
                   : `/categories/${categories.id}/histories/${histories.id}/steps/${choice.link_to_step_id}`
               }
+              onClick={handleClick}
               onMouseDown={(e) => timerDown(e, choice)}
               onMouseUp={timerUp}
               onMouseLeave={timerLeave}
