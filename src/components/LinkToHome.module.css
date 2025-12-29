@@ -1,0 +1,18 @@
+.logoHome {
+  position: fixed;
+  z-index: 1;
+
+  .logo {
+    height: 120px;
+    width: 120px;
+    position: fixed;
+
+    left: 3px;
+  }
+}
+.logoHome p {
+  position: fixed;
+  top: 70px;
+  left: 33px;
+  font-size: 18px;
+}
