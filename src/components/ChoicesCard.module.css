@@ -1,0 +1,66 @@
+.choicesList {
+  margin: 10px 14%;
+  font-family: OpenSans;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: center;
+}
+
+.choicesButton {
+  border-style: solid;
+  border-color: rgb(250, 250, 250);
+  border-radius: 25px;
+  margin: 10px;
+  color: #2e2e2e;
+  background-color: #f5f5e1a6;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  list-style: none;
+}
+
+.choicesButton a {
+  display: block;
+  padding: 5px 10px;
+  color: #2e2e2e;
+  transition: color 0.3 ease;
+  text-decoration: none;
+}
+
+.choicesButton:hover {
+  background-color: #5a8f7b75;
+  color: white;
+}
+.choicesButton a:hover {
+  color: white;
+}
+
+.choicesButton.holding {
+  animation: holdGrow 1s ease-out forwards;
+}
+
+.choicesButton.blurred {
+  animation: progressiveBlur 1s ease-out forwards;
+}
+
+@keyframes holdGrow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes progressiveBlur {
+  0% {
+    filter: blur(0px);
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    filter: blur(4px);
+    opacity: 0.3;
+    transform: scale(0.95);
+  }
+}

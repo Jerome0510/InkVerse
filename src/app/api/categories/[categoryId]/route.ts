@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 
 export async function GET(
   _request: Request,
-  { params }: { params: { categoryId: string } }
+  { params }: { params: Promise<{ categoryId: string }> }
 ) {
   try {
     const { categoryId } = await params;
@@ -14,16 +14,16 @@ export async function GET(
       [categoryId]
     );
 
-    const categories = rows as CategorieModel[];
+    const category = rows as CategorieModel[];
 
-    if (categories.length === 0) {
+    if (category.length === 0) {
       return NextResponse.json(
         { error: "Catégorie non trouvée" },
         { status: 404 }
       );
     }
 
-    return NextResponse.json(categories[0]);
+    return NextResponse.json(category[0]);
   } catch (error) {
     console.error("Erreur MySQL:", error);
     return NextResponse.json(
