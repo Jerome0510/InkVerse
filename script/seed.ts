@@ -810,7 +810,7 @@ Tu es seul. Et pour l’instant, personne ne t’empêche de choisir.</p>
 
 `,
         2,
-        "/backgrounds/LesLueurRuelle.png",
+        "/backgrounds/Lueur24.png",
       ],
       [
         25,
@@ -851,7 +851,7 @@ Un drone noir, sans marquage, s’immobilise au-dessus de toi.</p>
 
 `,
         2,
-        "background.png",
+        "/backgrounds/LueurTrame.png",
       ],
       [
         26,
@@ -887,7 +887,7 @@ Un vestige d’un pouvoir que la Ville refuse de reconnaître.</p>
 
 `,
         2,
-        "background.png",
+        "/backgrounds/LueurTrame.png",
       ],
       [
         27,
@@ -923,7 +923,7 @@ Un œilleton noir. Un cadenas électronique hors service.</p>
 
 `,
         2,
-        "background.png",
+        "/backgrounds/LueurTrame.png",
       ],
       [
         28,
@@ -961,7 +961,7 @@ Dehors, la pluie tombe plus fort.</p>
 
 `,
         2,
-        "background.png",
+        "/backgrounds/LueurTrame.png",
       ],
       [
         29,
@@ -983,7 +983,7 @@ Dehors, la pluie tombe plus fort.</p>
 <p>&nbsp;&nbsp;&nbsp;Et rien ne pourra l’y faire revenir.</p>
 `,
         2,
-        "background.png",
+        "/backgrounds/Lueur29.png",
       ],
       [
         30,
@@ -1012,7 +1012,7 @@ Un badge gouvernemental.</p>
 <p>Mais ça pourra servir de preuve, plus tard.</p>
 `,
         2,
-        "background.png",
+        "/backgrounds/LueurTrame.png",
       ],
       [
         31,
@@ -1033,7 +1033,40 @@ Jeune. Fatigué. Hors-la-loi.</p>
 <p>&nbsp;&nbsp;&nbsp;Et un jour, parler.</p>
 `,
         2,
-        "background.png",
+        "/backgrounds/Lueur31.png",
+      ],
+      [
+        32,
+        `<p>&nbsp;&nbsp;&nbsp;La pluie continue de tomber sur Virek, indifférente aux vérités qu’elle recouvre.<br />
+Les drones reprennent leur ronde, les écrans se rallument, et la Ville fait ce qu’elle fait le mieux : oublier.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Officiellement, rien ne s’est passé.<br />
+Un incident mineur. Un rapport classé. La machine avance.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Mais quelque part, une trace subsiste.<br />
+Une image volée. Un fragment de mémoire. Un nom qui ne devait pas exister.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu as appris une chose essentielle :<br />
+à Virek, la vérité ne disparaît jamais vraiment.<br />
+Elle change de forme… et de porteur.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Tu aurais pu détourner le regard.<br />
+Effacer. Oublier. Survivre.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Mais chaque choix laisse une empreinte,<br />
+et certaines brûlent plus longtemps que le froid.</p>
+
+<p>&nbsp;&nbsp;&nbsp;La Ville ne t’a pas encore pris.<br />
+Pas encore.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Car tant qu’une lueur subsistera dans le froid,<br />
+le système ne sera jamais totalement à l’abri.</p>
+
+<p>&nbsp;&nbsp;&nbsp;Ce n’était qu’un avertissement.<br />
+La première fissure.</p>
+`,
+        2,
+        "/backgrounds/LueurFin.png",
       ],
     ];
     await connection.execute(`SET FOREIGN_KEY_CHECKS = 0;`);
@@ -1094,13 +1127,15 @@ Jeune. Fatigué. Hors-la-loi.</p>
 
       [46, "Explorer les environs à la recherche d’un témoin", 24, 27],
       [47, "Examiner le corps malgré le protocole", 24, 25],
-      [48, "Appeler une ancienne camarade de promo dans la tech", 24, 30],
-      [49, "Insister et frapper à la porte", 27, 28],
-      [50, "Transmettre le bloc mémoire", 28, 29],
-      [51, "Aller à la capture interdite", 30, 31],
-      [52, "FIN #1 — Ce que l’on ne doit pas voir", 26, 0],
-      [53, "FIN #2 — Le témoin silencieux", 29, 0],
-      [54, "FIN #3 — La capture interdite", 31, 0],
+      [48, "Continuer vers la suite", 25, 26],
+      [49, "Appeler une ancienne camarade de promo dans la tech", 24, 30],
+      [50, "Insister et frapper à la porte", 27, 28],
+      [51, "Transmettre le bloc mémoire", 28, 29],
+      [52, "Aller à la capture interdite", 30, 31],
+      [54, "Ce que l’on ne doit pas voir", 26, 32],
+      [55, "Le témoin silencieux", 29, 32],
+      [56, "La capture interdite", 31, 32],
+      [57, "Revenir à l'accueil.", 32, 0],
     ];
     await connection.execute(`SET FOREIGN_KEY_CHECKS =0`);
     for (const choice of choices) {
