@@ -1,9 +1,10 @@
 import { db } from "@/src/lib/db";
+import HistoriesModel from "@/src/model/HistoriesModel";
 import { NextResponse } from "next/server";
 
 export async function GET(
   _request: Request,
-  { params }: { params: { categoryId: string } }
+  { params }: { params: Promise<{ categoryId: string }> }
 ) {
   try {
     const { categoryId } = await params;
@@ -16,6 +17,15 @@ export async function GET(
       `,
       [categoryId]
     );
+
+    const histories = rows as HistoriesModel[];
+
+    if (histories.length === 0) {
+      return NextResponse.json(
+        { error: "Histoires non trouvée" },
+        { status: 404 }
+      );
+    }
 
     return NextResponse.json(rows);
   } catch (error) {

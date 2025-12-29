@@ -1,9 +1,10 @@
 import { db } from "@/src/lib/db";
+import StepModel from "@/src/model/StepModel";
 import { NextResponse } from "next/server";
 
 export async function GET(
   _request: Request,
-  { params }: { params: { stepId: string } }
+  { params }: { params: Promise<{ stepId: string }> }
 ) {
   try {
     const { stepId } = await params;
@@ -12,6 +13,12 @@ export async function GET(
       `SELECT id, text, histories_id, background FROM steps WHERE id = ?`,
       [stepId]
     );
+
+    const step = rows as StepModel[];
+
+    if (step.length === 0) {
+      return NextResponse.json({ error: "Etape non trouvée" }, { status: 404 });
+    }
 
     return NextResponse.json(rows);
   } catch (error) {
