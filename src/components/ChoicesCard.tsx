@@ -1,9 +1,10 @@
 "use client";
 
+import { useRef, useState } from "react";
 import ChoiceModel from "../model/ChoiceModel";
-import { appRoutes } from "../data/ROUTES";
 import styles from "./ChoicesCard.module.css";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import HistoriesModel from "../model/HistoriesModel";
 import CategorieModel from "../model/CategorieModel";
 
@@ -14,17 +15,66 @@ interface ChoicesCardProps {
 }
 
 const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
+  const router = useRouter();
+  const [timerChoice, setTimerChoice] = useState<number | null>(null);
+  const holdTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  const timerDown = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    choice: ChoiceModel
+  ) => {
+    e.preventDefault();
+    setTimerChoice(choice.id);
+
+    holdTimerRef.current = setTimeout(() => {
+      const targetUrl =
+        choice.link_to_step_id === 0
+          ? "/"
+          : `/categories/${categories.id}/histories/${histories.id}/steps/${choice.link_to_step_id}`;
+
+      router.push(targetUrl);
+    }, 1000);
+  };
+
+  const timerUp = () => {
+    if (holdTimerRef.current) {
+      clearTimeout(holdTimerRef.current);
+      holdTimerRef.current = null;
+    }
+    setTimerChoice(null);
+  };
+
+  const timerLeave = () => {
+    if (holdTimerRef.current) {
+      clearTimeout(holdTimerRef.current);
+      holdTimerRef.current = null;
+    }
+    setTimerChoice(null);
+  };
+
   return (
     <div className={styles.choicesContain}>
       <ul className={styles.choicesList}>
         {choices.map((choice) => (
-          <li key={choice.id} className={styles.choicesButton}>
+          <li
+            key={choice.id}
+            className={`${styles.choicesButton} ${
+              timerChoice === choice.id ? styles.holding : ""
+            } ${
+              timerChoice !== null && timerChoice !== choice.id
+                ? styles.blurred
+                : ""
+            }`}
+          >
             <Link
               href={
                 choice.link_to_step_id === 0
                   ? "/"
                   : `/categories/${categories.id}/histories/${histories.id}/steps/${choice.link_to_step_id}`
               }
+              onMouseDown={(e) => timerDown(e, choice)}
+              onMouseUp={timerUp}
+              onMouseLeave={timerLeave}
             >
               {choice.text}
             </Link>
