@@ -76,41 +76,25 @@ const seed = async () => {
 La pierre est fendue, rongée par la cendre et l’humidité.<br />
 Autour de toi, des ruines noyées dans une brume cramoisie.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;L’air empeste la chair calcinée et la pluie morte.<br />
-Chaque inspiration brûle ta gorge.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le ciel est figé.<br />
-Crevé d’un œil rouge immense qui ne cligne jamais.<br />
+<p>&nbsp;&nbsp;&nbsp;L’air empeste la chair calcinée et la pluie morte. Chaque inspiration brûle ta gorge.</p>
+<p>Le ciel est figé. Crevé d’un œil rouge immense qui ne cligne jamais.<br />
 Il te fixe.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Tu cherches un souvenir.<br />
-Un nom.<br />
-Il n’y a rien.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Seulement cette certitude oppressante :<br />
+<p>&nbsp;&nbsp;&nbsp;Tu cherches un souvenir.Un nom.<br />
+Il n’y a rien. Seulement cette certitude oppressante :<br />
 tu n’aurais pas dû te réveiller.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu te redresses avec peine.<br />
 Tes membres sont lourds, engourdis, oubliés par le temps.</p>
+<p>Ta gorge est sèche, brûlante. Comme si tu avais hurlé dans le vide pendant des siècles.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Ta gorge est sèche, brûlante.<br />
-Comme si tu avais hurlé dans le vide pendant des siècles.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ton regard tombe sur ta main droite.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une marque noire y est gravée.<br />
+<p>Ton regard tombe sur ta main droite. Une marque noire y est gravée.<br />
 Un œil fermé, cerclé de crocs, brûlé jusque dans la chair.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Elle pulse lentement.<br />
-Chaude.<br />
-Vivante.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Au rythme d’un cœur qui n’est peut-être pas le tien.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Un craquement sec résonne derrière toi.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tu te retournes d’instinct.<br />
-Une silhouette approche dans la brume.</p>
+<p>&nbsp;&nbsp;&nbsp;Elle pulse lentement. Chaude. Vivante.</p>
+<p>Au rythme d’un cœur qui n’est peut-être pas le tien.</p>
+<p>Un craquement sec résonne derrière toi.</p>
+<p>Tu te retournes d’instinct. Une silhouette approche dans la brume.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Une vieille femme, drapée d’un manteau de suie.<br />
 Son visage est dissimulé derrière un bandeau de cuir clouté.</p>
@@ -124,50 +108,30 @@ Son visage est dissimulé derrière un bandeau de cuir clouté.</p>
       ],
       [
         2,
-        `<p>&nbsp;&nbsp;&nbsp;Elle te guide à travers les ruines effondrées.<br />
-Ses pas sont sûrs, comme si le sol lui obéissait encore.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Vous descendez dans les profondeurs d’un sanctuaire brisé.<br />
-Un ancien Temple des Veilleurs.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Les murs sont couverts de symboles profanés.<br />
-Des prières gravées, puis arrachées.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Au centre, un feu noir brûle.<br />
-Sans chaleur.<br />
-Sans lumière.</p>
+        `<p>&nbsp;&nbsp;&nbsp;Elle te guide à travers les ruines effondrées. Ses pas sont sûrs, comme si le sol lui obéissait.</p>
+<p>Vous descendez dans les profondeurs d’un sanctuaire brisé. Un ancien Temple.</p>
+<p>Les murs sont couverts de symboles profanés. Des prières gravées, puis arrachées.</p>
+<p>Au centre, un feu noir brûle. Sans chaleur. Sans lumière.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La femme se tient face à toi.<br />
-« Morgha », dit-elle enfin.<br />
-« La Céciteuse. »</p>
+« Je suis Morgha..... La Céciteuse.», dit-elle enfin.<br />
 <br />
-<p>&nbsp;&nbsp;&nbsp;Elle te tend une coupe d’eau trouble.<br />
-Chargée de cendre.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le liquide te brûle la gorge, puis te ranime.<br />
-Juste assez pour tenir debout.</p>
+<p>&nbsp;&nbsp;&nbsp;Elle te tend une coupe d’eau trouble.Le liquide te brûle la gorge, puis te ranime. Juste assez pour tenir debout.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Le monde s’éteint, Porte-Marque », murmure-t-elle.<br />
 « La Couronne d’Épine a ouvert les Brèches. »</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;« Par elles s’infiltrent la Peste Rouge…<br />
-et ceux qu’elle engendre. »</p>
+<p>&nbsp;&nbsp;&nbsp;« Par elles s’infiltrent la Peste Rouge… et ceux qu’elle engendre. »</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Son regard se pose sur ta main marquée.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;« Tu viens d’un monde d’avant.<br />
-Ou d’un futur déjà effacé. »</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Elle secoue la tête.<br />
-« Peu importe. »</p>
+<p>&nbsp;&nbsp;&nbsp;« Tu viens d’un monde d’avant. Ou d’un futur déjà effacé. »</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« La Marque te permet de refermer la Brèche originelle. »</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Morgha sort une dague sombre.<br />
-Runes mortes gravées sur l’acier.</p>
+<p>&nbsp;&nbsp;&nbsp;Morgha sort une dague sombre. Runes mortes gravées sur l’acier.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;« Mais avant d’agir…<br />
-tu dois choisir ce que tu es, ou ce que tu veux devenir ! »</p>
+<p>&nbsp;&nbsp;&nbsp;« Mais avant d’agir… Tu dois choisir ce que tu es, ou ce que tu veux devenir ! »</p>
 
 `,
         1,
@@ -175,19 +139,11 @@ tu dois choisir ce que tu es, ou ce que tu veux devenir ! »</p>
       ],
       [
         3,
-        `<p>&nbsp;&nbsp;&nbsp;Tu refermes les doigts sur la dague.<br />
-Le métal est glacé, presque douloureux.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Quelque chose répond en toi.<br />
-Un écho ancien.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Des fragments surgissent.<br />
-Souvenirs possibles d'une vies qui auraient pu être les tiennes.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tu ignores ce que tu étais.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Mais quelque chose cherche à remonter.<br />
-Enfoui sous la peur et l’oubli.</p>
+        `<p>&nbsp;&nbsp;&nbsp;Tu refermes les doigts sur la dague. Le métal est glacé, presque douloureux.</p>
+<p>Quelque chose répond en toi. Un écho ancien.</p>
+<p>Des fragments surgissent. Souvenirs possibles d'une vies qui auraient pu être les tiennes.</p>
+<p>Tu ignores ce que tu étais.</p>
+<p>Mais quelque chose cherche à remonter. Enfoui sous la peur et l’oubli.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Morgha ne te quitte pas des yeux.</p>
 <br />
@@ -198,14 +154,9 @@ Enfoui sous la peur et l’oubli.</p>
 Elle est aussi une clef. »</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Elle glisse un petit objet dans ta main libre.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Sans réfléchir, tu le ranges contre toi.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Il pulse doucement.<br />
-Comme s’il t’avait attendu.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Un talisman…<br />
-ou un dernier mensonge.</p>
+<p>Sans réfléchir, tu le ranges contre toi.</p>
+<p>Il pulse doucement. Comme s’il t’avait attendu.</p>
+<p>Un talisman… Ou un dernier mensonge.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Yrnwald est déjà perdu », murmure Morgha.</p>
 <br />
@@ -219,46 +170,25 @@ ou un dernier mensonge.</p>
       ],
       [
         4,
-        `<p>&nbsp;&nbsp;&nbsp;Dehors, le vent a tourné.<br />
-L’aube ne vient plus.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Yrnwald a oublié la lumière du jour.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;L’air sent le fer et la cendre.<br />
-Des bourrasques soulèvent des poussières rouges.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Elles virevoltent comme des lucioles mourantes.</p>
+        `<p>&nbsp;&nbsp;&nbsp;Dehors, le vent a tourné.L’aube ne vient plus. Yrnwald a oublié la lumière du jour.</p>
+<p>L’air sent le fer et la cendre.<br />
+Des bourrasques soulèvent des poussières rouges. Elles virevoltent comme des lucioles mourantes.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ici, la lumière ne vient plus du ciel.</p>
+<p>Elle émane des Brèches. Plaies béantes dans la chair du monde.</p>
+<p>À chaque pulsation, un peu plus de réalité se délite.</p>
+<p>Ta main marquée se contracte. La douleur est brève. Puis la vision s’impose.</p>
+<p>Une carte se grave dans ton esprit.<br />
+Brûlée dans ta mémoire. Trois routes apparaissent.<br />
+Nettes. Irréfutables.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Elle émane des Brèches.<br />
-Plaies béantes dans la chair du monde.</p>
+<p>&nbsp;&nbsp;&nbsp;_ À l’ouest, Ashtorath. Champ de bataille figé dans la mort.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;À chaque pulsation, un peu plus de réalité se délite.</p>
+<p>&nbsp;&nbsp;&nbsp;_ Au sud-est, la Forêt de Gräven. Un bois qui observe et murmure.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Ta main marquée se contracte.</p>
+<p>&nbsp;&nbsp;&nbsp;_ Au nord-est, les Temples en ruine. Foyers d’une foi dévorée par le Néant.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;La douleur est brève.<br />
-Puis la vision s’impose.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une carte se grave dans ton esprit.<br />
-Brûlée dans ta mémoire.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Trois routes apparaissent.<br />
-Nettes.<br />
-Irréfutables.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;_ À l’ouest, Ashtorath.<br />
-Champ de bataille figé dans la mort.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;_ Au sud-est, la Forêt de Gräven.<br />
-Un bois qui observe et murmure.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;_ Au nord-est, les Temples en ruine.<br />
-Foyers d’une foi dévorée par le Néant.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Marque palpite.<br />
-Le choix t’appartient.</p>
+<p>&nbsp;&nbsp;&nbsp;La Marque palpite. Le choix t’appartient.</p>
 
 `,
         1,
@@ -267,49 +197,26 @@ Le choix t’appartient.</p>
       [
         5,
         `<p>&nbsp;&nbsp;&nbsp;Les arbres de Gräven se referment sur toi.<br />
-Leurs troncs sont longs, tordus, semblables à des os dressés vers le ciel.</p>
+<p>Le silence est pesant. Même tes pas semblent retenus par la forêt.</p>
+Les feuilles ne tombent jamais. Elles restent accrochées, sèches, rigides. Elles observent.</p>
+<p>Une lueur perce soudain la brume. Un feu rougeâtre.</p>
+<p>Un campement entoure un autel de crânes. Une silhouette est accroupie près des flammes.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Le silence est pesant.<br />
-Même tes pas semblent retenus par la forêt.</p>
+<p>&nbsp;&nbsp;&nbsp;« Porte-Marque, hm, tu as encore le sang chaud ? » dit une voix sèche.<br />
 <br />
-<p>&nbsp;&nbsp;&nbsp;Les feuilles ne tombent jamais.<br />
-Elles restent accrochées, sèches, rigides.<br />
-Elles observent.</p>
+<p>&nbsp;&nbsp;&nbsp;L’homme ne lève pas les yeux. Un masque de bois et d’os dissimule son visage.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Par instants, ton reflet apparaît dans l’écorce.<br />
-Il marche à contre-sens.<br />
-Il te regarde.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une lueur perce soudain la brume.<br />
-Un feu rougeâtre.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Un campement sommaire entoure un autel de crânes et de branches nouées.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une silhouette est accroupie près des flammes.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;« Porte-Marque, hm ? » dit une voix sèche.<br />
-« Tu sens encore le sang chaud. »</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;L’homme ne lève pas les yeux.<br />
-Un masque de bois et d’os dissimule son visage.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;« Je vends des souvenirs.<br />
-Des malédictions.<br />
-Et parfois, des choses utiles. »</p>
+<p>&nbsp;&nbsp;&nbsp;« Je vends des souvenirs. Des malédictions. Et parfois, des choses utiles. »</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Il dispose lentement plusieurs objets devant toi.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Une fiole de mémoire.<br />
-Une lame d’obsidienne.<br />
-Un crochet pulsant.</p>
+<p>&nbsp;&nbsp;&nbsp;_ Une fiole de mémoire.<br />
+&nbsp;&nbsp;&nbsp;_ Une lame d’obsidienne.<br />
+<p>&nbsp;&nbsp;&nbsp;_ Un crochet pulsant.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;L’un d’eux te semble familier.</p>
+<p>&nbsp;&nbsp;&nbsp;« Tu peux en prendre un, mais je te prendrai aussi quelque chose », murmure-t-il.<br />
 <br />
-<p>&nbsp;&nbsp;&nbsp;« Tu peux en prendre un », murmure-t-il.<br />
-« Mais je prendrai aussi quelque chose. »</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le feu vacille.<br />
-Puis le campement disparaît.</p>
+<p>&nbsp;&nbsp;&nbsp;Le feu vacille. Le campement disparaît, puis le marchand mysterieux s'en va.</p>
 
 `,
         1,
@@ -320,37 +227,23 @@ Puis le campement disparaît.</p>
         `<p>&nbsp;&nbsp;&nbsp;Tu quittes Gräven par un ancien sentier de pierre.<br />
 La mousse y dévore des symboles oubliés.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Derrière toi, la forêt se referme lentement.<br />
-Elle n’aime pas laisser partir ce qu’elle a vu.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La brume se mêle à la cendre.<br />
-Le vent charrie des voix sans mots.</p>
+<p>&nbsp;&nbsp;&nbsp;Derrière toi, la forêt se referme lentement. Elle n’aime pas laisser partir ce qu’elle a vu.</p>
+<p>La brume se mêle à la cendre. Le vent charrie des voix sans mots.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ton objet pulse contre toi.<br />
 La Marque répond.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Tu marches longtemps.<br />
-Trop longtemps.</p>
+<p>&nbsp;&nbsp;&nbsp;Tu marches longtemps.... Trop longtemps.</p>
+<p>Au loin, une silhouette se dresse sur la plaine morte.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Au loin, une silhouette se dresse sur la plaine morte.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une tour solitaire.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Tour du Voile.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Autrefois, un phare contre l’obscurité.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Aujourd’hui, elle penche sous son propre poids.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Éventrée à mi-hauteur.<br />
-Fissurée jusqu’à la base.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Pourtant, elle tient encore.</p>
+<p>&nbsp;&nbsp;&nbsp;Une tour solitaire. La Tour du Voile.</p>
+<p>Autrefois, un phare contre l’obscurité.</p>
+<p>Aujourd’hui, elle penche sous son propre poids. Éventrée à mi-hauteur.<br />
+Fissurée jusqu’à la base. Pourtant, elle tient encore.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le crépuscule s’installe.<br />
 Ici, il ne finit jamais.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tu atteins la tour. Le seuil est ouvert.</p>
+Tu atteins la tour. Le seuil est ouvert.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu entres.</p>
 
@@ -361,40 +254,29 @@ Ici, il ne finit jamais.</p>
       [
         7,
         `<p>&nbsp;&nbsp;&nbsp;Lorsque tu franchis le seuil, la lumière s’éteint d’elle-même.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Les murs sont couverts de runes effacées.<br />
-Trop anciennes… ou trop vraies.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Un grincement résonne dans la tour.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Quelqu’un vit encore ici.</p>
+<p>Les murs sont couverts de runes effacées. Trop anciennes… ou trop vraies.</p>
+<p>Un grincement résonne dans la tour. Quelqu’un vit encore ici.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Un vieil homme émerge de l’ombre.<br />
 Un bandeau épais recouvre ses yeux aveugles.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;« Porte-Marque », murmure-t-il.<br />
-« Tu es attendu. »</p>
+<p>&nbsp;&nbsp;&nbsp;« Porte-Marque, tu es attendu. », murmure-t-il.<br />
 <br />
-<p>&nbsp;&nbsp;&nbsp;Il parle par fragments.<br />
-Comme si les mots complets étaient dangereux.</p>
+<p>&nbsp;&nbsp;&nbsp;Il parle par fragments. Comme si les mots complets étaient dangereux.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« La Brèche originelle ne peut être atteinte ainsi. »</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Tu devras éveiller l’un des Trois Dormeurs. »</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;_ La Reine Écorchée.<br />
-<br />
 <p>&nbsp;&nbsp;&nbsp;_ Le Veilleur Aveugle.<br />
-<br />
 <p>&nbsp;&nbsp;&nbsp;_ La Mère Cendre.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Il cloue des cartes brûlées au mur.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Aucun réveil ne sera sans prix. »</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Il dépose un fragment d’os poli dans ta main.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une clef.</p>
+<p>&nbsp;&nbsp;&nbsp;Il dépose un fragment d’os poli dans ta main. Une clef.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Pour un souvenir », murmure-t-il.</p>
 
@@ -404,36 +286,27 @@ Comme si les mots complets étaient dangereux.</p>
       ],
       [
         8,
-        `<p>&nbsp;&nbsp;&nbsp;La Brèche s’agite soudain.<br />
-Comme si elle avait senti ton passage.</p>
+        `<p>&nbsp;&nbsp;&nbsp;La Brèche s’agite soudain. Comme si elle avait senti ton passage.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Les murs tremblent.<br />
-La tour gémit.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tu fuis.</p>
+La tour gémit. Tu fuis.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Un ancien pont de pierre surgit devant toi.<br />
 Suspendu au-dessus d’un gouffre sans fond.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Derrière toi, la Brèche hurle.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Des filaments d’ombre rampent.<br />
+<p>Des filaments d’ombre rampent.<br />
 Ils cherchent ta chaleur.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tu cours. Chaque pas résonne comme un glas.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ton objet brûle contre toi.<br />
+<p>Tu cours. Chaque pas résonne comme un glas.</p>
+<p>Ton objet brûle contre toi.<br />
 La Marque pulse.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu comprends alors :</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu n’es pas seulement poursuivi.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tu es reconnu.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Au-delà du pont, un territoire intact t’appelle.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Espoir… ou damnation. La Brèche ne renonce pas.</p>
+<p>Tu es reconnu.</p>
+<p>Au-delà du pont, un territoire intact t’appelle.</p>
+<p>Espoir… ou damnation. La Brèche ne renonce pas.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Et toi non plus.</p>
 
@@ -443,41 +316,30 @@ La Marque pulse.</p>
       ],
       [
         9,
-        `<p>&nbsp;&nbsp;&nbsp;Au-delà du pont, la terre change.</p>
-<br />
-<p>La cendre se fait poussière. Le ciel, moins lourd.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Des murs apparaissent.<br />
+        `<p>&nbsp;&nbsp;&nbsp;Au-delà du pont, la terre change. La cendre se fait poussière. Le ciel, moins lourd.</p>
+<p>Des murs apparaissent.<br />
 Debout.<br />
 Intacts.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu viens d' arriver à Ashtorath.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une cité vivante.<br />
+<p>Une cité vivante.<br />
 Ou quelque chose qui y ressemble.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Des torches brûlent sans fumer.<br />
 Des portes grincent, mais tiennent.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Des voix résonnent.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Pas des murmures.<br />
-De vraies voix.</p>
+<p>Pas des murmures. De vraies voix.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Des silhouettes te regardent passer.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Aucun cri.<br />
-Aucune fuite.</p>
+<p>Aucun cri. Aucune fuite.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Certains s’inclinent.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;D’autres détournent les yeux.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tous ont vu la Marque.</p>
+<p>D’autres détournent les yeux.</p>
+<p>Tous ont vu la Marque.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ashtorath te reconnaît.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Mais pas encore comme un sauve
+<p>Mais pas encore comme un sauveur.</p>
 
 `,
         1,
@@ -485,11 +347,9 @@ Aucune fuite.</p>
       ],
       [
         10,
-        `<p>&nbsp;&nbsp;&nbsp;Les rues sont propres.<br />
-Trop propres.</p>
+        `<p>&nbsp;&nbsp;&nbsp;Les rues sont propres....Trop propres.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Aucune ruine récente.<br />
-Aucune trace de panique.</p>
+<p>&nbsp;&nbsp;&nbsp;Aucune ruine récente. Aucune trace de panique.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Les habitants sourient.<br />
 Toujours un peu trop tard.</p>
@@ -498,20 +358,17 @@ Toujours un peu trop tard.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ils parlent d’abondance.<br />
 De paix.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;De protection.</p>
+<p>De protection.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Un mot revient sans cesse :</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le Voile.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Il protège Ashtorath de la Brèche.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Il filtre le monde.</p>
+<p>Il filtre le monde.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Marque te brûle légèrement.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Comme si elle doutait.</p>
+<p>Comme si elle doutait.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Un enfant te fixe longuement.</p>
 <br />
@@ -527,13 +384,11 @@ De paix.</p>
         11,
         `<p>&nbsp;&nbsp;&nbsp;On te mène au cœur de la cité.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Une salle circulaire.<br />
-Des vitraux sans lumière.</p>
+<p>&nbsp;&nbsp;&nbsp;Une salle circulaire. Des vitraux sans lumière.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le Conseil t’attend.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Sept figures voilées.<br />
-Immobiles.</p>
+<p>&nbsp;&nbsp;&nbsp;Sept figures voilées. Immobiles.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Porte-Marque », disent-elles d’une seule voix.</p>
 <br />
@@ -541,10 +396,8 @@ Immobiles.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ils parlent de stabilité.<br />
 D’équilibre maintenu.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Brèche est contenue, ici.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Grâce au Voile.</p>
+<p>La Brèche est contenue, ici.</p>
+<p>Grâce au Voile.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Ta présence l’affaiblit. »</p>
 <br />
@@ -554,9 +407,7 @@ D’équilibre maintenu.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Un choix sans mots est posé.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Rester.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ou comprendre.</p>
+<p>&nbsp;&nbsp;&nbsp;Rester. Ou comprendre.</p>
 
 `,
         1,
@@ -565,32 +416,22 @@ D’équilibre maintenu.</p>
       [
         12,
         `<p>&nbsp;&nbsp;&nbsp;La nuit tombe sur Ashtorath.</p>
+<p>Les lanternes s’allument d’elles-mêmes.</p>
+<p>Tu marches seul.</p>
+<p>Ton reflet se déforme dans les vitres.</p>
+<p>Par moments, la cité cligne.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Les lanternes s’allument d’elles-mêmes.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tu marches seul.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ton reflet se déforme dans les vitres.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Par moments, la cité cligne.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Un mur se fissure.<br />
-Puis redevient intact.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Un cri étouffé résonne.</p>
+<p>&nbsp;&nbsp;&nbsp;Un mur se fissure. Puis redevient intact.</p>
+<p>Un cri étouffé résonne.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Personne ne réagit.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Sous une arche, tu vois l’envers.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Des corps figés.<br />
-Des visages endormis.</p>
+<p>Des corps figés. Des visages endormis.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Maintenus.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Le Voile ne protège pas.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Il suspend.</p>
+<p>&nbsp;&nbsp;&nbsp;Le Voile ne protège pas. Il suspend.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Marque devient glacée.</p>
 <br />
@@ -639,35 +480,27 @@ Des visages endormis.</p>
       [
         14,
         `<p>&nbsp;&nbsp;&nbsp;Le ciel se déchire au-dessus de toi.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ashtorath disparaît.</p>
+<p>Ashtorath disparaît.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Brèche s’ouvre, béante.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Suspendue dans le gouffre, elle apparaît.</p>
+<p>Suspendue dans le gouffre, elle apparaît.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Couronne d’Épine.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Immense.<br />
+<p>Immense.<br />
 Silencieuse.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Elle tourne lentement.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Chaque épine est un monde brisé.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Chaque battement dévore un souvenir.</p>
+<p>Chaque épine est un monde brisé.</p>
+<p>Chaque battement dévore un souvenir.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu comprends.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le Voile est tissé de sacrifices.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ashtorath est clouée au Néant.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Couronne te voit.</p>
+<p>Ashtorath est clouée au Néant.</p>
+<p>La Couronne te voit.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Elle attend ton choix.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Puis la vision se brise.</p>
+<p>Puis la vision se brise.</p>
 `,
         1,
         "/backgrounds/LesCendres.png",
@@ -675,8 +508,7 @@ Silencieuse.</p>
       [
         15,
         `<p>&nbsp;&nbsp;&nbsp;La cité attend.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le Voile vibre autour de toi.</p>
+<p>Le Voile vibre autour de toi.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu sens sa fatigue.</p>
 <br />
@@ -691,16 +523,12 @@ Silencieuse.</p>
 <p>&nbsp;&nbsp;&nbsp;Ou libérer.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Marque se stabilise.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Elle n’impose rien.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Elle attend que tu sois entier.</p>
+<p>Elle n’impose rien.</p>
+<p>Elle attend que tu sois entier.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Un pas suffit.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Vers le cœur.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ou vers la sortie.</p>
+<p>&nbsp;&nbsp;&nbsp;Vers le cœur. Ou vers la sortie.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ashtorath retient son souffle.</p>
 
@@ -711,24 +539,16 @@ Silencieuse.</p>
       [
         16,
         `<p>&nbsp;&nbsp;&nbsp;Le Voile se tend.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Quelque part, un Dormeur frissonne.</p>
+<p>Quelque part, un Dormeur frissonne.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Brèche sourit.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ashtorath ne sera plus jamais intacte.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Quoi que tu aies choisi,</p>
+<p>Quoi que tu aies choisi,</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;le monde vient de s’en souvenir.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Couronne d’Épine tourne plus vite.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Et ton nom,</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;que tu n’as pas encore,</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;commence à circuler.</p>
+<p>La Couronne d’Épine tourne plus vite.</p>
+Et ton nom, que tu n’as pas encore, commence à circuler.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Dans la cendre.</p>
 <br />
@@ -737,8 +557,7 @@ Silencieuse.</p>
 <p>&nbsp;&nbsp;&nbsp;Et dans la peur.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le voyage ne fait que commencer.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Mais Ashtorath, elle, est fissurée.</p>
+<p>Mais Ashtorath, elle, est fissurée.</p>
 
 `,
         1,
@@ -747,35 +566,27 @@ Silencieuse.</p>
       [
         17,
         `<p>&nbsp;&nbsp;&nbsp;Devant toi, une série d’arches massives se dresse.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Les Temples d’Ashtorath.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Des pierres noires, gravées de runes anciennes, respirent.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le vent y danse, chantant des hymnes oubliés.</p>
+<p>Les Temples d’Ashtorath.</p>
+<p>Des pierres noires, gravées de runes anciennes, respirent.</p>
+<p>Le vent y danse, chantant des hymnes oubliés.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Chaque arche est gardée par une statue.</p>
+<p>Des créatures figées, à moitié pierre, à moitié chair.</p>
+<p>Leurs yeux, bien que clos, semblent te suivre.</p>
 <br />
-<p>&nbsp;&nbsp;&nbsp;Des créatures figées, à moitié pierre, à moitié chair.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Leurs yeux, bien que clos, semblent te suivre.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une odeur d’encens flotte encore.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Elle est sucrée, étrange, presque vivante.</p>
+<p>&nbsp;&nbsp;&nbsp;Une odeur d’encens flotte encore.<br />
+<p>Elle est sucrée, étrange, presque vivante.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Un murmure t’invite.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Entre… si tu oses. »</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Marque vibre sur ton poignet.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Comme pour confirmer.<br />
+<p>Comme pour confirmer.<br />
 Elle connaît le chemin.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu franchis la première arche.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;L’air change. Plus lourd, plus dense.</p>
+<p>L’air change. Plus lourd, plus dense.</p>
 
 `,
         1,
@@ -786,34 +597,26 @@ Elle connaît le chemin.</p>
         `<p>&nbsp;&nbsp;&nbsp;À l’intérieur, la lumière est rare.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Des piliers soutiennent un plafond invisible.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Chaque pas résonne.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Des symboles circulaires s’allument sous tes pieds.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Comme si le sol te lisait.</p>
+<p>Chaque pas résonne.</p>
+<p>Des symboles circulaires s’allument sous tes pieds.</p>
+<p>Comme si le sol te lisait.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Un souffle glacé caresse ta nuque.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une voix chuchote, venue de partout et de nulle part :</p>
+<p>Une voix chuchote, venue de partout et de nulle part :</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Tu as vu la Couronne. Tu sais ce qu’elle exige. »</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Des statues pivotent lentement.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Elles te mesurent.<br />
+<p>Elles te mesurent.<br />
 Elles jugent.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Au centre, un piédestal supporte un objet scintillant.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Marque brûle plus fort.<br />
+<p>La Marque brûle plus fort.<br />
 Elle t’encourage ou te prévient ?</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le Sanctuaire entier semble retenir son souffle.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le choix est là, palpable.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Chaque Temple détient un fragment de vérité.</p>
+<p>Le choix est là, palpable.</p>
+<p>Chaque Temple détient un fragment de vérité.</p>
 
 `,
         1,
@@ -822,32 +625,26 @@ Elle t’encourage ou te prévient ?</p>
       [
         19,
         `<p>&nbsp;&nbsp;&nbsp;L’eau s’épaissit autour de toi.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Chaque mouvement devient effort.</p>
+<p>Chaque mouvement devient effort.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le silence est absolu, pesant, écrasant.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Au cœur du sanctuaire englouti, une forme gigantesque sommeille.</p>
+<p>Au cœur du sanctuaire englouti, une forme gigantesque sommeille.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Mère Cendre.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Son corps mêle pierre, racines et cendre noire.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Des veines d’obsidienne parcourent sa peau, pulsant comme un cœur invisible.</p>
+<p>Des veines d’obsidienne parcourent sa peau, pulsant comme un cœur invisible.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ton sang palpite en écho.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Un lien ancien te rattache à elle.</p>
+<p>Un lien ancien te rattache à elle.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Chaque geste que tu fais réveille des souvenirs oubliés.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tu comprends : réveiller la Mère Cendre exigera un fragment de toi-même.</p>
+<p>Tu comprends : réveiller la Mère Cendre exigera un fragment de toi-même.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Et pourtant… tu avances.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;L’eau reflète la lumière rouge de la Brèche, pulsant à l’unisson de la Marque.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tout converge vers ce lieu, où le choix final s’impose.</p>
+<p>Tout converge vers ce lieu, où le choix final s’impose.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ton souffle devient visible, suspendu dans le froid du sanctuaire.</p>
 
@@ -860,30 +657,22 @@ Elle t’encourage ou te prévient ?</p>
         `<p>&nbsp;&nbsp;&nbsp;Enfin, la Brèche originelle s’ouvre devant toi.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Gigantesque, vivante, elle gronde comme un être conscient.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Les vents cendrés hurlent autour, porteurs de murmures oubliés.</p>
+<p>Les vents cendrés hurlent autour, porteurs de murmures oubliés.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ton double, les Dormeurs et la Mère Cendre convergent vers ce point unique.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Marque brûle avec une intensité douloureuse.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Elle réclame un choix final.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Sacrifice. Fusion. Ou refus.</p>
+<p>La Marque brûle avec une intensité douloureuse.</p>
+<p>Elle réclame un choix final.</p>
+<p>Sacrifice. Fusion. Ou refus.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Les hurlements de la Brèche te transpercent.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Elle t’offre une seule issue : comprendre… ou disparaître.</p>
+<p>Elle t’offre une seule issue : comprendre… ou disparaître.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Chaque fragment de ton voyage converge ici.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le temps semble se plier autour de toi.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Tes souvenirs, tes choix, ton essence sont mis à nu.</p>
+<p>Le temps semble se plier autour de toi.</p>
+<p>Tes souvenirs, tes choix, ton essence sont mis à nu.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le souffle de la Brèche te caresse et t’avertit.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ici, un seul Porte-Marque peut décider.</p>
+<p>Ici, un seul Porte-Marque peut décider.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tout ce que tu feras résonnera dans Yrnwald pour toujours.</p>
 
@@ -894,32 +683,28 @@ Elle t’encourage ou te prévient ?</p>
       [
         21,
         `<p>&nbsp;&nbsp;&nbsp;Le sol se fissure sous tes pieds.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Des filaments de lumière et d’ombre s’entrelacent.</p>
+<p>Des filaments de lumière et d’ombre s’entrelacent.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Chaque respiration semble déchirer la réalité.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ton double s’avance et te tend la main.</p>
+<p>Ton double s’avance et te tend la main.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;« Accepte-moi ou refuse… mais choisis vite », dit-il.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ses yeux reflètent ton âme, ton passé et ce que tu pourrais devenir.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Les Dormeurs hurlent depuis l’ombre, écho de leurs propres souffrances.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le choix est simple… et pourtant impossible :</p>
+<p>Les Dormeurs hurlent depuis l’ombre, écho de leurs propres souffrances.</p>
+<p>Le choix est simple… et pourtant impossible :</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;- Fusionner avec la Marque et la Brèche.<br />
-- Laisser la Brèche consumer tout.<br />
-- Sacrifier une part de toi pour refermer définitivement le gouffre.</p>
+<br />
+<p>&nbsp;&nbsp;&nbsp;- Laisser la Brèche consumer tout.<br />
+<br />
+<p>&nbsp;&nbsp;&nbsp;- Sacrifier une part de toi pour refermer définitivement le gouffre.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tout repose sur toi.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le monde d’Yrnwald retient son souffle.</p>
+<p>Le monde d’Yrnwald retient son souffle.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le vent hurle les échos de toutes les vies que tu as croisées.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Marque palpite, amplifiant l’urgence de ta décision.</p>
+<p>La Marque palpite, amplifiant l’urgence de ta décision.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Chaque instant compte, chaque choix laisse sa trace.</p>
 
@@ -930,32 +715,25 @@ Elle t’encourage ou te prévient ?</p>
       [
         22,
         `<p>&nbsp;&nbsp;&nbsp;Tu inspires profondément.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Marque pulse, vibrant avec tout ce que tu as traversé.</p>
+<p>La Marque pulse, vibrant avec tout ce que tu as traversé.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Si tu choisis la fusion :</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Ton corps devient un phare de lumière et d’ombre.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Les Dormeurs se calment, la Brèche stabilisée.</p>
+<p>Ton corps devient un phare de lumière et d’ombre.</p>
+<p>Les Dormeurs se calment, la Brèche stabilisée.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Une nouvelle ère commence… mais à quel prix ?</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Si tu choisis le sacrifice :</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Une part de toi disparaît.</p>
+<p>Une part de toi disparaît.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;La Brèche se referme dans un hurlement silencieux.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Les Dormeurs s’éteignent un par un.</p>
+<p>Les Dormeurs s’éteignent un par un.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Yrnwald survit, mais ton nom est effacé de ses mémoires.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Si tu refuses :</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Brèche engloutit tout.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Les Dormeurs se libèrent.</p>
+<p>La Brèche engloutit tout.</p>
+<p>Les Dormeurs se libèrent.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le monde s’effondre… et tu deviens une légende tragique, oubliée mais connue.</p>
 
@@ -966,28 +744,23 @@ Elle t’encourage ou te prévient ?</p>
       [
         23,
         `<p>&nbsp;&nbsp;&nbsp;Le vent se calme.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La lumière revient, faible mais sincère.</p>
+<p>La lumière revient, faible mais sincère.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Yrnwald respire à nouveau.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Les Dormeurs sont redevenus des ombres dormantes.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;La Marque, selon ton choix, est purifiée, fusionnée ou dissipée.</p>
+<p>La Marque, selon ton choix, est purifiée, fusionnée ou dissipée.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Ton double sourit… ou disparaît.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le temps s’étire et se contracte, laissant place à la paix… ou à la mémoire d’un monde perdu.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Quel que soit le chemin, tu sais une chose :</p>
+<p>Quel que soit le chemin, tu sais une chose :</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Tu as changé Yrnwald à jamais.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Et quelque part, la Brèche se souviendra de ton nom.</p>
+<p>Et quelque part, la Brèche se souviendra de ton nom.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Le silence retombe, solennel et définitif.</p>
-<br />
-<p>&nbsp;&nbsp;&nbsp;Le cycle est terminé… pour le moment.</p>
+<p>Le cycle est terminé… pour le moment.</p>
 <br />
 <p>&nbsp;&nbsp;&nbsp;Mais le monde, lui, continue de respirer sous ton influence.</p>
 
