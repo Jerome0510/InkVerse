@@ -22,3 +22,7 @@
   height: 50px;
   cursor: pointer;
 }
+
+.aboutLogo:hover {
+  transform: scale(1.08);
+}
