@@ -1,5 +1,5 @@
-import { db } from "@/src/lib/db";
-import ChoiceModel from "@/src/model/ChoiceModel";
+import { db } from "@/lib/db";
+import ChoiceModel from "@/model/ChoiceModel";
 import { NextResponse } from "next/server";
 
 export async function GET(

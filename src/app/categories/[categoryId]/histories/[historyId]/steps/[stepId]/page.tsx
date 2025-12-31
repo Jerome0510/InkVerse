@@ -1,12 +1,12 @@
-import { apiRoutes } from "@/src/data/ROUTES";
-import StepModel from "@/src/model/StepModel";
+import { apiRoutes } from "@/data/ROUTES";
+import StepModel from "@/model/StepModel";
 import styles from "./steps.module.css";
-import StepsCard from "@/src/components/StepsCard";
-import NoBackNavigation from "@/src/components/NoBackNavigation";
-import CategorieModel from "@/src/model/CategorieModel";
-import HistoriesModel from "@/src/model/HistoriesModel";
-import ChoiceModel from "@/src/model/ChoiceModel";
-import ChoicesCard from "@/src/components/ChoicesCard";
+import StepsCard from "@/components/StepsCard";
+import NoBackNavigation from "@/components/NoBackNavigation";
+import CategorieModel from "@/model/CategorieModel";
+import HistoriesModel from "@/model/HistoriesModel";
+import ChoiceModel from "@/model/ChoiceModel";
+import ChoicesCard from "@/components/ChoicesCard";
 
 interface StepsProps {
   params: {
