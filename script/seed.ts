@@ -1149,17 +1149,20 @@ La première fissure.</p>
     }
 
     const users = [
-      [1, "Porte marque", "Avatar_porteMarque.png", "porteMarque@yrnwald.com"],
       [
-        2,
-        "Elian",
-        "Avatar_EllianJeuneRecrue.png",
-        "EllianJeuneRecrue@Virek.com",
+        1,
+        "Porte marque",
+        "Avatar_porteMarque.png",
+        "porteMarque@yrnwald.com",
+        "google",
+        "google-1",
+        "user",
+        "1982-01-01",
       ],
     ];
     for (const user of users) {
       await connection.execute(
-        `INSERT INTO users (id, pseudo, avatar, email) VALUES (?, ?, ?, ?)`,
+        `INSERT INTO users (id, pseudo, avatar, email, provider, provider_id, role, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
         user
       );
     }
