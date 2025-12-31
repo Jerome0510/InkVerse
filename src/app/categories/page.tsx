@@ -1,6 +1,6 @@
-import { apiRoutes } from "@/src/data/ROUTES";
-import CategorieModel from "@/src/model/CategorieModel";
-import CategoriesCards from "@/src/components/CategoriesCards";
+import { apiRoutes } from "@/data/ROUTES";
+import CategorieModel from "@/model/CategorieModel";
+import CategoriesCards from "@/components/CategoriesCards";
 import styles from "./Categories.module.css";
 
 const Categories = async () => {

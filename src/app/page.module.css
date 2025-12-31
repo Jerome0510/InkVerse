@@ -1,4 +1,5 @@
 .homeBackground {
+  position: relative;
   background-image: url(/backgrounds/FEAccueil.png);
   background-size: cover;
   background-repeat: no-repeat;

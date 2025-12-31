@@ -1,6 +1,6 @@
-import { apiRoutes } from "@/src/data/ROUTES";
-import HistoriesModel from "@/src/model/HistoriesModel";
-import HistoryCard from "@/src/components/HistoryCard";
+import { apiRoutes } from "@/data/ROUTES";
+import HistoriesModel from "@/model/HistoriesModel";
+import HistoryCard from "@/components/HistoryCard";
 import styles from "./history.module.css";
 
 interface HistoriesProps {

@@ -1,4 +1,4 @@
-import LinkToHome from "@/src/components/LinkToHome";
+import LinkToHome from "@/components/LinkToHome";
 
 export default function RootLayout({
   children,

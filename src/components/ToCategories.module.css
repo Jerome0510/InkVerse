@@ -4,8 +4,10 @@
   align-items: center;
   justify-content: center;
   border-radius: 50px;
+  border-style: solid;
+  border-color: #2e4a7d;
   text-decoration: none;
-  font-family: "OpenSans", sans-serif;
+  font-family: OpenSans;
   font-size: 12px;
   letter-spacing: 1px;
   overflow: visible;
@@ -13,9 +15,9 @@
 
 .glow {
   position: absolute;
-  inset: -8px;
+  inset: -18px;
   background: linear-gradient(90deg, #2e4a7d, #3e6b8f, #eadfcb);
-  opacity: 0.5;
+  opacity: 0.8;
   filter: blur(22px);
   transition: opacity 0.4s ease, filter 0.4s ease;
 }
@@ -27,15 +29,15 @@
   align-items: center;
   gap: 12px;
   padding: 4px 14px;
-  background: #e6e6e6;
+  background: #f5f5e1;
   color: #111111;
   border-radius: 50px;
   transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .linkToCategories:hover .glow {
-  opacity: 0.8;
-  filter: blur(26px);
+  opacity: 0.9;
+  filter: blur(56px);
 }
 
 .linkToCategories:hover .content {

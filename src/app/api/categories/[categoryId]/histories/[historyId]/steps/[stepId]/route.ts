@@ -1,5 +1,5 @@
-import { db } from "@/src/lib/db";
-import StepModel from "@/src/model/StepModel";
+import { db } from "@/lib/db";
+import StepModel from "@/model/StepModel";
 import { NextResponse } from "next/server";
 
 export async function GET(
