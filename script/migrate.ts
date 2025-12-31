@@ -10,9 +10,15 @@ const schema = `
 
     CREATE TABLE IF NOT EXISTS users(
     id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    pseudo VARCHAR(100) NOT NULL,
-    avatar VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL
+    pseudo VARCHAR(100) NULL,
+    avatar VARCHAR(255) NULL,
+    email VARCHAR (100) NOT NULL,
+    provider VARCHAR(50)NOT NULL DEFAULT 'google',
+    provider_id VARCHAR(255) NOT NULL,
+    role VARCHAR (50) DEFAULT 'user',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE (email)
+   
     );
 
     CREATE TABLE IF NOT EXISTS categories (
@@ -67,6 +73,7 @@ const migrate = async () => {
       host: MYSQL_DB_HOST,
       user: MYSQL_DB_USER,
       password: MYSQL_DB_PASSWORD,
+      database: MYSQL_DB_NAME,
       multipleStatements: true,
     });
 
