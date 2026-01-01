@@ -23,6 +23,9 @@ const apiRoutes = {
     stepId: string | number
   ) =>
     `${apiUrl}/api/categories/${categoryId}/histories/${historyId}/steps/${stepId}/choices`,
+
+  PROGRESS: (userId: string | number, historyId: string | number) =>
+    `${apiUrl}/users/${userId}/progress/${historyId}`,
 };
 
 const appRoutes = {

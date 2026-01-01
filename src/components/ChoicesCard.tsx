@@ -27,12 +27,27 @@ const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
     setTimerChoice(choice.id);
 
     holdTimerRef.current = setTimeout(() => {
-      const targetUrl =
-        choice.link_to_step_id === 0
-          ? "/"
-          : `/categories/${categories.id}/histories/${histories.id}/steps/${choice.link_to_step_id}`;
+      const saveAndNavigate = async (): Promise<void> => {
+        if (choice.link_to_step_id !== 0) {
+          await fetch("/api/progress", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              historyId: histories.id,
+              stepId: choice.link_to_step_id,
+            }),
+          });
+        }
 
-      router.push(targetUrl);
+        const targetUrl =
+          choice.link_to_step_id === 0
+            ? "/"
+            : `/categories/${categories.id}/histories/${histories.id}/steps/${choice.link_to_step_id}`;
+
+        router.push(targetUrl);
+      };
+
+      void saveAndNavigate();
     }, 1000);
   };
 
