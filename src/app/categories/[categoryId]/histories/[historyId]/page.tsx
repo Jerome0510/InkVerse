@@ -24,6 +24,15 @@ const HistoryPage = async ({ params }: HistoriesProps) => {
 
     const history: HistoriesModel[] = await apiResult.json();
 
+    if (!history || history.length === 0) {
+      return (
+        <div>
+          <h1>Erreur</h1>
+          <p>Histoire introuvable</p>
+        </div>
+      );
+    }
+
     return (
       <section className={styles.forBackground}>
         <img src={history[0].background} alt={history[0].title} />
@@ -37,7 +46,7 @@ const HistoryPage = async ({ params }: HistoriesProps) => {
     return (
       <div>
         <h1>Erreur</h1>
-        <p>Erreur lors du chargement de l' histoire</p>
+        <p>Erreur lors du chargement de l'histoire</p>
       </div>
     );
   }
