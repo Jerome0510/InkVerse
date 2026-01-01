@@ -27,7 +27,7 @@ const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
     setTimerChoice(choice.id);
 
     holdTimerRef.current = setTimeout(() => {
-      const saveAndNavigate = async (): Promise<void> => {
+      const SaveAndNavigate = async () => {
         if (choice.link_to_step_id !== 0) {
           await fetch("/api/progress", {
             method: "POST",
@@ -36,6 +36,10 @@ const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
               historyId: histories.id,
               stepId: choice.link_to_step_id,
             }),
+          });
+        } else {
+          await fetch(`/api/progress/${histories.id}`, {
+            method: "DELETE",
           });
         }
 
@@ -47,7 +51,7 @@ const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
         router.push(targetUrl);
       };
 
-      void saveAndNavigate();
+      SaveAndNavigate();
     }, 1000);
   };
 

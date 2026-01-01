@@ -56,3 +56,49 @@ export async function GET(
     );
   }
 }
+
+export async function DELETE(
+  _request: Request,
+  { params }: { params: Promise<{ historyId: string }> }
+) {
+  try {
+    const session = await getServerSession();
+    const userEmail = session?.user?.email;
+
+    if (!userEmail) {
+      return NextResponse.json({ error: "Non connecté" }, { status: 401 });
+    }
+
+    const { historyId } = await params;
+
+    const [usersRows] = await db.query("SELECT id FROM users WHERE email = ?", [
+      userEmail,
+    ]);
+    const users = usersRows as UserRow[];
+
+    if (users.length === 0) {
+      return NextResponse.json(
+        { error: "Utilisateur introuvable" },
+        { status: 404 }
+      );
+    }
+
+    const userId = users[0].id;
+
+    await db.query(
+      "DELETE FROM progress WHERE users_id = ? AND histories_id = ?",
+      [userId, historyId]
+    );
+
+    return NextResponse.json({
+      message: "Progression supprimée",
+      success: true,
+    });
+  } catch (error) {
+    console.error("Erreur MySQL DELETE progress:", error);
+    return NextResponse.json(
+      { error: "Internal Server Error" },
+      { status: 500 }
+    );
+  }
+}
