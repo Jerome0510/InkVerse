@@ -34,3 +34,12 @@
 .categoriesText p {
   text-align: center;
 }
+
+@media screen and (min-width: 375px) and (max-width: 950px) {
+  .categoriesCard {
+    padding: 7px;
+    margin: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}

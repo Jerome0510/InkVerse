@@ -43,3 +43,15 @@
 .historyText p {
   text-align: center;
 }
+
+@media screen and (min-width: 375px) and (max-width: 950px) {
+  .historiesCard {
+    margin: 75px;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  .categoryTitle {
+    padding-top: 120px;
+  }
+}

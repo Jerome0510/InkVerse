@@ -37,3 +37,12 @@
 .logInContainer:hover {
   transform: scale(1.08);
 }
+
+@media screen and (min-width: 375px) and (max-width: 950px) {
+  .logOutContainer,
+  .logInContainer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
