@@ -17,6 +17,7 @@
   transition: background-color 0.3s ease;
   cursor: pointer;
   list-style: none;
+  touch-action: manipulation;
 }
 
 .choicesButton a {
@@ -62,5 +63,19 @@
     filter: blur(4px);
     opacity: 0.3;
     transform: scale(0.95);
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 950px) {
+  .choicesButton a {
+    padding: 3px 7px;
+  }
+  .choicesButton {
+    font-size: 12px;
+    margin: 7px;
+  }
+
+  .choicesList {
+    margin: 10px 2%;
   }
 }

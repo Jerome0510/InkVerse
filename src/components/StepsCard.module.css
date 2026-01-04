@@ -36,3 +36,20 @@
 .text p + p {
   margin-top: 0.3em !important;
 }
+
+@media screen and (min-width: 375px) and (max-width: 950px) {
+  .stepTitle {
+    padding-top: 100px;
+  }
+
+  .StepCard {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 330px;
+    overflow-y: auto;
+  }
+
+  .StepCard p {
+    font-size: 12px;
+  }
+}

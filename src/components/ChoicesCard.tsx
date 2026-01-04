@@ -20,7 +20,7 @@ const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
   const holdTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const timerDown = (
-    e: React.MouseEvent<HTMLAnchorElement>,
+    e: React.PointerEvent<HTMLAnchorElement>,
     choice: ChoiceModel
   ) => {
     e.preventDefault();
@@ -96,9 +96,9 @@ const ChoicesCard = ({ categories, histories, choices }: ChoicesCardProps) => {
                   : `/categories/${categories.id}/histories/${histories.id}/steps/${choice.link_to_step_id}`
               }
               onClick={handleClick}
-              onMouseDown={(e) => timerDown(e, choice)}
-              onMouseUp={timerUp}
-              onMouseLeave={timerLeave}
+              onPointerDown={(e) => timerDown(e, choice)}
+              onPointerUp={timerUp}
+              onPointerLeave={timerLeave}
             >
               {choice.text}
             </Link>

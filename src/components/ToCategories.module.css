@@ -44,3 +44,9 @@
   transform: scale(1.05);
   background: #f0f0f0;
 }
+
+@media screen and (min-width: 375px) and (max-width: 950px) {
+  .content {
+    padding: 8px 15px;
+  }
+}
