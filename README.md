@@ -17,7 +17,7 @@ This project was developed as part of the **RNCP Level 5 Certification - Web and
 ## 🛠️ Technical Stack
 
 * **Frontend**: [Next.js](https://nextjs.org/) (React / TypeScript)
-* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+* **Styling**: [CSS](https://tailwindcss.com/)
 * **Backend**: Next.js API Routes (Serverless)
 * **Database**: MySQL
 * **Authentication**: NextAuth.js
