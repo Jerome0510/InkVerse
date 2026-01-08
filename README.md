@@ -1,86 +1,88 @@
 🖋️ InkVerse
-📖 Project Overview
 
-InkVerse is a web application dedicated to interactive storytelling.
-It allows users to dive into branching narratives, where each choice directly impacts the story, the progression, and the ending.
+InkVerse is an interactive storytelling web application where every reader's decision shapes the course of the story. This project was developed as part of the RNCP Level 5 Certification - Web and Web Mobile Developer.
 
-This project is my first solo project, born from the combination of two passions:
-👉 web development
-👉 immersive storytelling
 
-The main goal of InkVerse is to deliver an engaging, intuitive, and immersive experience, where technology serves the narrative.
+🚀 Features
 
-🎯 Project Objectives
+Secure Authentication: Connection via Google OAuth for a personalized experience.
 
-- Build an interactive reading application with narrative choices
-- Offer multiple story universes and visual atmospheres
-- Design a robust and scalable architecture
-- Provide a smooth and immersive user experience
-- Showcase a full-stack project within a Web / Web Mobile Developer training program
+Immersive Reading: Clean and responsive interface for a smooth experience on PC, tablet, or mobile.
 
-🧩 Key Features
+Dynamic Choice System: "Press and hold" validation (anti-error system) to enhance immersion.
 
-- Selection of interactive stories
-- Choice-based narrative progression
-- User progress management
-- Dynamic content and background display based on the story universe
-- Interface designed to enhance narrative immersion
+Progress Saving: Automatically resumes reading from the last visited step.
 
-🛠️ Technologies Used
+Robust State Management: Fluid navigation between categories and stories.
 
-Front-end
 
-- Next.js / React
-- Semantic HTML
-- CSS (modules or global styles)
-- Dynamic content rendering
+🛠️ Technical Stack
 
-Back-end & Data
+Framework: Next.js (React / TypeScript)
 
-- Relational database (SQL)
-- Story structure divided into steps and choices
-- Relationship management between narrative entities
+Design: Tailwind CSS
 
-🎨 Design & Prototyping
+Database: MySQL
 
-The UX/UI design process was carried out upstream using Figma in order to:
+Authentication: NextAuth.js (Google Provider)
 
-- Structure the pages,
-- Define user journeys,
-- Ensure visual consistency across the application.
+Version Control: Git & GitHub
 
-👉 Figma mockups:
-🔗 https://www.figma.com/design/zoVjzxNUMdHVd1ejq8xUzJ/InkVerse-Porject?node-id=0-1&p=f&t=fb7dbvVx4IBoJCg5-0
 
-🗄️ Database Modeling
+📂 Architecture
 
-The database was designed to meet the specific needs of interactive storytelling:
-stories, steps, choices, user progress, etc.
+The project follows a strict separation of concerns:
 
-The data model was created using DrawDB to clearly visualize the relationships between the different tables.
+Front-end: Modular React components and state management using hooks.
 
-👉 Database schema:
-🔗 https://www.drawdb.app/editor?shareId=002c5a8a79f771aec90592648aa112fc
+Back-end: Next.js API Routes handling CRUD operations and business logic.
 
-⚠️ Production Constraints
+Security: Route protection via Middleware and sensitive data hashing.
 
-During the development of this project, several constraints influenced both technical and artistic decisions:
 
-- Limited production time
-- No financial resources to hire a professional illustrator
+⚙️ Installation & Setup
 
-To address these constraints, some visuals were created using image generation tools, allowing the project to maintain a strong visual identity while staying within scope.
+1. Clone the repository
+Bash
 
-🚀 Future Improvements
+git clone https://github.com/Jerome0510/InkVerse.git
+cd InkVerse
 
-- Addition of new stories and universes
-- Advanced progress saving system
-- Accessibility improvements
-- Optimized mobile version
-- Expanded narrative mechanics
+2. Environment Variables Configuration
+Create a .env.local file in the root directory based on the provided .env.example:
 
-👤 Author
+MYSQL_DB_HOST=localhost
+MYSQL_DB_USER=your_user
+MYSQL_DB_PASSWORD=your_password
+MYSQL_DB_NAME=inkverse_db
 
-Project developed by Jérôme
-Web / Web Mobile Developer (in training)
-Passionate about storytelling and interactive experiences
+NEXT_PUBLIC_API_URL=http://localhost:3000
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+NEXTAUTH_SECRET=your_auth_secret
+GOOGLE_CLIENT_ID=your_client_id
+GOOGLE_CLIENT_SECRET=your_client_secret
+3. Installation and Launch
+Bash
+
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run dev
+The application will be available at http://localhost:3000.
+
+
+🛡️ Security & Best Practices
+
+Environment Variables: API keys and database credentials are isolated and not versioned on Git.
+
+Strict Typing: TypeScript is used to minimize runtime errors.
+
+Data Validation: User input control to prevent SQL injections and errors.
+
+
+👨‍💻 Author
+
+Jérôme Marbach - Project presented for the Web and Web Mobile Developer exam.
+
