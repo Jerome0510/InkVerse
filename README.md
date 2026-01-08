@@ -51,17 +51,18 @@ cd InkVerse
 2. Environment Variables Configuration
 Create a .env.local file in the root directory based on the provided .env.example:
 
-MYSQL_DB_HOST=localhost
-MYSQL_DB_USER=your_user
-MYSQL_DB_PASSWORD=your_password
-MYSQL_DB_NAME=inkverse_db
+MYSQL_DB_HOST=localhost,
+MYSQL_DB_USER=your_user,
+MYSQL_DB_PASSWORD=your_password,
+MYSQL_DB_NAME=inkverse_db,
 
-NEXT_PUBLIC_API_URL=http://localhost:3000
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=http://localhost:3000,
+NEXT_PUBLIC_APP_URL=http://localhost:3000,
 
-NEXTAUTH_SECRET=your_auth_secret
-GOOGLE_CLIENT_ID=your_client_id
-GOOGLE_CLIENT_SECRET=your_client_secret
+NEXTAUTH_SECRET=your_auth_secret,
+GOOGLE_CLIENT_ID=your_client_id,
+GOOGLE_CLIENT_SECRET=your_client_secret,
+
 3. Installation and Launch
 Bash
 
