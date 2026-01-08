@@ -1,51 +1,42 @@
-🖋️ InkVerse
+# 🖋️ InkVerse
 
-InkVerse is an interactive storytelling web application where every reader's decision shapes the course of the story. This project was developed as part of the RNCP Level 5 Certification - Web and Web Mobile Developer.
+**InkVerse** is an interactive storytelling web application inspired by "Choose Your Own Adventure" books. It provides a platform where readers become actors, making decisions that directly impact the narrative flow and lead to multiple story endings.
 
+This project was developed as part of the **RNCP Level 5 Certification - Web and Web Mobile Developer**.
 
-🚀 Features
+---
 
-Secure Authentication: Connection via Google OAuth for a personalized experience.
+## 🚀 Features
 
-Immersive Reading: Clean and responsive interface for a smooth experience on PC, tablet, or mobile.
+* **Secure Authentication**: User login via Google OAuth (NextAuth.js) for a personalized and secure experience.
+* **Immersive Reading Interface**: A clean, distraction-free design optimized for reading comfort.
+* **Dynamic Choice System**: A "press and hold" interaction to confirm choices, preventing accidental clicks and increasing immersion.
+* **Automatic Progress Saving**: The application tracks and saves user progression, allowing readers to resume exactly where they left off.
+* **Responsive Design**: A fully fluid experience across Desktop, Tablet, and Smartphone.
 
-Dynamic Choice System: "Press and hold" validation (anti-error system) to enhance immersion.
+## 🛠️ Technical Stack
 
-Progress Saving: Automatically resumes reading from the last visited step.
+* **Frontend**: [Next.js](https://nextjs.org/) (React / TypeScript)
+* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+* **Backend**: Next.js API Routes (Serverless)
+* **Database**: MySQL
+* **Authentication**: NextAuth.js
+* **Version Control**: Git & GitHub
 
-Robust State Management: Fluid navigation between categories and stories.
+## 📂 Architecture
 
+The project follows a strict **Separation of Concerns (SoC)**:
+* **Frontend**: Modular React components using functional programming and state management via Hooks (useState, useEffect).
+* **Backend**: RESTful API design handling CRUD operations for stories, user progress, and categories.
+* **Security**: Middleware implementation for route protection and secure handling of sensitive credentials.
 
-🛠️ Technical Stack
+---
 
-Framework: Next.js (React / TypeScript)
+## ⚙️ Installation & Configuration
 
-Design: Tailwind CSS
-
-Database: MySQL
-
-Authentication: NextAuth.js (Google Provider)
-
-Version Control: Git & GitHub
-
-
-📂 Architecture
-
-The project follows a strict separation of concerns:
-
-Front-end: Modular React components and state management using hooks.
-
-Back-end: Next.js API Routes handling CRUD operations and business logic.
-
-Security: Route protection via Middleware and sensitive data hashing.
-
-
-⚙️ Installation & Setup
-
-1. Clone the repository
-Bash
-
-git clone https://github.com/Jerome0510/InkVerse.git
+### 1. Clone the repository
+```bash
+git clone [https://github.com/Jerome0510/InkVerse.git](https://github.com/Jerome0510/InkVerse.git)
 cd InkVerse
 
 2. Environment Variables Configuration
