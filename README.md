@@ -36,53 +36,37 @@ The project follows a strict **Separation of Concerns (SoC)**:
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/Jerome0510/InkVerse.git](https://github.com/Jerome0510/InkVerse.git)
+git clone https://github.com/Jerome0510/InkVerse.git
 cd InkVerse
+```
 
-2. Environment Variables Configuration
-Create a .env.local file in the root directory based on the provided .env.example:
+---
 
-MYSQL_DB_HOST=localhost,
+### MySQL Database Configuration
+```bash
+MYSQL_DB_HOST=localhost
+MYSQL_DB_USER=your_db_user
+MYSQL_DB_PASSWORD=your_db_password
+MYSQL_DB_NAME=inkverse_db
 
-MYSQL_DB_USER=your_user,
+NEXT_PUBLIC_API_URL=http://localhost:3000
+NEXT_PUBLIC_APP_URL=http://localhost:3000
 
-MYSQL_DB_PASSWORD=your_password,
+NEXTAUTH_SECRET=your_nextauth_secret
 
-MYSQL_DB_NAME=inkverse_db,
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+```
 
+🛡️ Security & Best Practices.
 
-NEXT_PUBLIC_API_URL=http://localhost:3000,
+**Environment Variables**: All API keys and database credentials are kept out of version control via .gitignore.
 
-NEXT_PUBLIC_APP_URL=http://localhost:3000,
+**Type Safety**: Full TypeScript implementation to catch errors during development.
 
-
-NEXTAUTH_SECRET=your_auth_secret,
-
-GOOGLE_CLIENT_ID=your_client_id,
-
-GOOGLE_CLIENT_SECRET=your_client_secret,
-
-3. Installation and Launch
-Bash
-
-# Install dependencies
-npm install
-
-# Run in development mode
-npm run dev
-The application will be available at http://localhost:3000.
-
-
-🛡️ Security & Best Practices
-
-Environment Variables: API keys and database credentials are isolated and not versioned on Git.
-
-Strict Typing: TypeScript is used to minimize runtime errors.
-
-Data Validation: User input control to prevent SQL injections and errors.
-
+**Data Integrity**: Server-side validation.
 
 👨‍💻 Author
 
-Jérôme Marbach - Project presented for the Web and Web Mobile Developer exam.
+**Jérôme Marbach** - Junior Full-Stack Developer Project developed for the Web and Web Mobile Developer professional certification.
 
