@@ -1,8 +1,8 @@
-import routes from "@/src/data/ROUTES";
-import HistoriesModel from "@/src/model/HistoriesModel";
-import CategorieModel from "@/src/model/CategorieModel";
+import { apiRoutes } from "@/data/ROUTES";
+import HistoriesModel from "@/model/HistoriesModel";
+import CategorieModel from "@/model/CategorieModel";
 import styles from "./category.module.css";
-import CategoryCard from "@/src/components/CategoryCard";
+import CategoryCard from "@/components/CategoryCard";
 
 const Category = async ({
   params,
@@ -13,8 +13,8 @@ const Category = async ({
 
   try {
     const [categoryRes, historiesRes] = await Promise.all([
-      fetch(routes.apiRoutes.CATEGORY(categoryId), { cache: "no-store" }),
-      fetch(routes.apiRoutes.CATEGORY_HISTORIES(categoryId), {
+      fetch(apiRoutes.CATEGORY(categoryId), { cache: "no-store" }),
+      fetch(apiRoutes.CATEGORY_HISTORIES(categoryId), {
         cache: "no-store",
       }),
     ]);

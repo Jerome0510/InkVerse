@@ -1,0 +1,99 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+}
+
+.modal {
+  position: relative;
+  background: #f5f5e1;
+  padding: 2rem;
+  border-style: solid;
+  border-color: #4a6fa5;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 90%;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.close:hover {
+  transform: scale(1.1);
+}
+
+.close img {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.text {
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+.loginButton {
+  display: flex;
+  justify-content: center;
+}
+
+.logoGoogle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 5px 15px;
+  background: #dbdbc8;
+  border: 2px solid #4a6fa5;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.logoGoogle:hover {
+  transform: scale(1.08);
+}
+
+.logoGoogle img {
+  width: 18px;
+  height: 18px;
+}
+
+.logoGoogle p {
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+}

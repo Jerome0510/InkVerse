@@ -1,0 +1,55 @@
+.stepTitle {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: OpenSans;
+}
+
+.StepCard {
+  padding: 12px;
+  border-style: solid;
+  border-radius: 15px;
+  background-color: #f5f5e1a6;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.text {
+  font-family: OpenSans;
+  font-size: 16px;
+  color: #2e2e2e;
+  margin-left: 2%;
+}
+.text {
+  line-height: 1.3;
+}
+
+.text p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.text br {
+  display: none;
+}
+
+.text p + p {
+  margin-top: 0.3em !important;
+}
+
+@media screen and (min-width: 375px) and (max-width: 950px) {
+  .stepTitle {
+    padding-top: 100px;
+  }
+
+  .StepCard {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 330px;
+    overflow-y: auto;
+  }
+
+  .StepCard p {
+    font-size: 12px;
+  }
+}

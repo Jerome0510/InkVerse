@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import CategorieModel from "@/src/model/CategorieModel";
+import CategorieModel from "@/model/CategorieModel";
 import styles from "./CategoriesCards.module.css";
 import Link from "next/link";
 
