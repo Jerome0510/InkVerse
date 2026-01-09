@@ -71,11 +71,11 @@ npm install
 To create the table structure and import the initial stories / categories, run the following commands: 
 ```bash
 # Run database migrations to create tables
-npm run migrate
+npm run db:migrate
 ```
 ```bash
 # Seed the database with initial stories and data
-npm run seed
+npm run db:seed
 ```
 
 ### 5. Launch the application
