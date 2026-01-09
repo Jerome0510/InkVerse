@@ -8,17 +8,16 @@ This project was developed as part of the **RNCP Level 5 Certification - Web and
 
 ## 🚀 Features
 
-* **Secure Authentication**: User login via Google OAuth (NextAuth.js) for a personalized and secure experience.
 * **Immersive Reading Interface**: A clean, distraction-free design optimized for reading comfort.
 * **Dynamic Choice System**: A "press and hold" interaction to confirm choices, preventing accidental clicks and increasing immersion.
 * **Automatic Progress Saving**: The application tracks and saves user progression, allowing readers to resume exactly where they left off.
-* **Responsive Design**: A fully fluid experience across Desktop, Tablet, and Smartphone.
+* **Responsive Design**: A fully fluid experience across Desktop and Smartphone.
 
 ## 🛠️ Technical Stack
 
-* **Frontend**: [Next.js](https://nextjs.org/) (React / TypeScript)
-* **Styling**: [CSS](https://tailwindcss.com/)
-* **Backend**: Next.js API Routes (Serverless)
+* **Runtime environment**: [Node.js] (https://nodejs.org)
+* **Framework**: [Next.js](https://nextjs.org/) (React / TypeScript)
+* **Styling**: [CSS.module] ( Scoped Custom stylesheets)
 * **Database**: MySQL
 * **Authentication**: NextAuth.js
 * **Version Control**: Git & GitHub
@@ -42,7 +41,10 @@ cd InkVerse
 
 ---
 
-### MySQL Database Configuration
+### 2. Environment setup
+
+Create a .env.local file in the rooy directory and fill it with your credential ( see .env.exemple for the required keys):
+
 ```bash
 MYSQL_DB_HOST=localhost
 MYSQL_DB_USER=your_db_user
@@ -58,7 +60,34 @@ GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 ```
 
-🛡️ Security & Best Practices.
+
+### 3. Install dependencies
+```bash
+npm install
+```
+
+### 4. Database setup (migration and seding)
+
+To create the table structure and import the initial stories / categories, run the following commands: 
+```bash
+# Run database migrations to create tables
+npm run migrate
+
+# Seed the database with initial stories and data
+npm run seed
+```
+
+### 5. Launch the application
+```bash
+# Start development server
+npm run dev
+```
+
+The app will be accessible at http:/localhost:3000 .
+
+
+---
+## 🛡️ Security & Best Practices.
 
 **Environment Variables**: All API keys and database credentials are kept out of version control via .gitignore.
 
@@ -66,7 +95,7 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 
 **Data Integrity**: Server-side validation.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 **Jérôme Marbach** - Junior Full-Stack Developer Project developed for the Web and Web Mobile Developer professional certification.
 
