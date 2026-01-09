@@ -72,7 +72,8 @@ To create the table structure and import the initial stories / categories, run t
 ```bash
 # Run database migrations to create tables
 npm run migrate
-
+```
+```bash
 # Seed the database with initial stories and data
 npm run seed
 ```
