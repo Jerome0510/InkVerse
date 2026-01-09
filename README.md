@@ -89,11 +89,11 @@ The app will be accessible at http:/localhost:3000 .
 ---
 ## 🛡️ Security & Best Practices.
 
-**Environment Variables**: All API keys and database credentials are kept out of version control via .gitignore.
+Environment Variables: Sensitive data is isolated in .env files and excluded from version control via .gitignore.
 
-**Type Safety**: Full TypeScript implementation to catch errors during development.
+Type Safety: Full TypeScript implementation to catch errors during development and ensure code reliability.
 
-**Data Integrity**: Server-side validation.
+Data Integrity: Server-side validation to prevent SQL injections and maintain database consistency.
 
 ## 👨‍💻 Author
 
