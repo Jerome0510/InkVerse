@@ -15,7 +15,7 @@ const Home = () => {
           <img
             className={styles.aboutLogo}
             src="/logos/About.png"
-            alt="alller vers About"
+            alt="aller vers About"
           />
         </Link>
         <ToCategories />
