@@ -1,4 +1,5 @@
 .homeBackground {
+  position: relative;
   background-image: url(/backgrounds/FEAccueil.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,4 +22,8 @@
   right: 20px;
   height: 50px;
   cursor: pointer;
+}
+
+.aboutLogo:hover {
+  transform: scale(1.08);
 }

@@ -7,19 +7,40 @@ const apiRoutes = {
     `${apiUrl}/api/categories/${categoryId}`,
   CATEGORY_HISTORIES: (categoryId: string | number) =>
     `${apiUrl}/api/categories/${categoryId}/histories`,
+  HISTORY: (categoryId: string | number, historyId: string | number) =>
+    `${apiUrl}/api/categories/${categoryId}/histories/${historyId}`,
 
-  HISTORIES: `${apiUrl}/api/histories`,
-  HISTORY: (historyId: string | number) =>
-    `${apiUrl}/api/histories/${historyId}`,
+  STEPS: (
+    categoryId: string | number,
+    historyId: string | number,
+    stepId: string | number
+  ) =>
+    `${apiUrl}/api/categories/${categoryId}/histories/${historyId}/steps/${stepId}`,
+
+  CHOICES: (
+    categoryId: string | number,
+    historyId: string | number,
+    stepId: string | number
+  ) =>
+    `${apiUrl}/api/categories/${categoryId}/histories/${historyId}/steps/${stepId}/choices`,
+
+  PROGRESS: (userId: string | number, historyId: string | number) =>
+    `${apiUrl}/users/${userId}/progress/${historyId}`,
 };
 
 const appRoutes = {
   CATEGORIES: `${appUrl}/categories`,
   CATEGORY: (categoryId: string | number) =>
     `${appUrl}/categories/${categoryId}`,
-
   HISTORY: (categoryId: string | number, historyId: string | number) =>
     `${appUrl}/categories/${categoryId}/histories/${historyId}`,
+
+  STEPS: (
+    categoryId: string | number,
+    historyId: string | number,
+    stepId: string | number
+  ) =>
+    `${appUrl}/categories/${categoryId}/histories/${historyId}/steps/${stepId}`,
 };
 
 export { apiRoutes, appRoutes };

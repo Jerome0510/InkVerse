@@ -1,8 +1,8 @@
-import { apiRoutes } from "@/src/data/ROUTES";
-import HistoriesModel from "@/src/model/HistoriesModel";
-import CategorieModel from "@/src/model/CategorieModel";
+import { apiRoutes } from "@/data/ROUTES";
+import HistoriesModel from "@/model/HistoriesModel";
+import CategorieModel from "@/model/CategorieModel";
 import styles from "./category.module.css";
-import CategoryCard from "@/src/components/CategoryCard";
+import CategoryCard from "@/components/CategoryCard";
 
 const Category = async ({
   params,
