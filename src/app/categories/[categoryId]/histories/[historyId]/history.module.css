@@ -8,6 +8,11 @@
   height: 100vh;
 }
 
+.messageError {
+  text-align: center;
+  padding-top: 250px;
+}
+
 @media screen and (min-width: 375px) and (max-width: 950px) {
   .forBackground img {
     object-fit: cover;

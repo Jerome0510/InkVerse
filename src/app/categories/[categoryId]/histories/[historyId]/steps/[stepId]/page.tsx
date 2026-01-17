@@ -58,9 +58,10 @@ const StepsPage = async ({ params }: StepsProps) => {
   } catch (error) {
     console.error("Erreur:", error);
     return (
-      <div>
+      <div className={styles.messageError}>
         <h1>Erreur</h1>
-        <p>Erreur lors du chargement de l' histoire</p>
+        <p>Erreur lors du chargement de l'histoire</p>
+        <p>revenez a l'accueil</p>
       </div>
     );
   }

@@ -44,9 +44,10 @@ const HistoryPage = async ({ params }: HistoriesProps) => {
   } catch (error) {
     console.error("Erreur:", error);
     return (
-      <div>
+      <div className={styles.messageError}>
         <h1>Erreur</h1>
         <p>Erreur lors du chargement de l'histoire</p>
+        <p>Revenez a l'accueil</p>
       </div>
     );
   }
