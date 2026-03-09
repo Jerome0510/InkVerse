@@ -1,48 +1,7 @@
 export const runtime = "nodejs";
 
 import NextAuth from "next-auth";
-import GoogleProvider from "next-auth/providers/google";
-import { db } from "@/lib/db";
+import { authOptions } from "@/lib/authOptions";
 
-const handler = NextAuth({
-  providers: [
-    GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
-    }),
-  ],
-
-  session: {
-    strategy: "jwt",
-  },
-
-  callbacks: {
-    async signIn({ user, account }) {
-      if (account?.provider === "google") {
-        const [rows]: any = await db.query(
-          "SELECT id FROM users WHERE email = ?",
-          [user.email]
-        );
-
-        if (rows.length === 0) {
-          await db.query(
-            `INSERT INTO users (pseudo, avatar, email, provider, provider_id)
-             VALUES (?, ?, ?, ?, ?)`,
-            [
-              user.name ?? null,
-              user.image ?? null,
-              user.email,
-              "google",
-              account.providerAccountId,
-            ]
-          );
-        }
-      }
-      return true;
-    },
-  },
-
-  secret: process.env.NEXTAUTH_SECRET,
-});
-
+const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };

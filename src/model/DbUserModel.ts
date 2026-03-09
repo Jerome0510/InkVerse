@@ -1,5 +1,3 @@
-import { DateTime } from "next-auth/providers/kakao";
-
 export interface DbUser {
   id: number;
   pseudo: string;

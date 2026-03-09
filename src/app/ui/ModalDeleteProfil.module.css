@@ -1,0 +1,37 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.confirmBox {
+  background: #f5f5e1;
+  color: #2e2e2e;
+  border-style: solid;
+  border-radius: 12px;
+  padding: 7px;
+  border-color: #4a6fa5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.validationButton button {
+  border-style: solid;
+  background: #f5f5d5;
+  border-color: #4a6fa5;
+  border-radius: 12px;
+  padding: 4px;
+  margin: 20px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.validationButton button:hover {
+  transform: scale(1.08);
+}
